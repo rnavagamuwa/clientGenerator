@@ -1,0 +1,7 @@
+<%
+var test = Packages.org.wso2.jaggery.test;
+var myTest = new test();
+print(myTest.executeScript());
+%> 
+<a href="javaClientSdk.zip">Download SDK</a>
+<a href="javascript:alert('Hello World!');">Execute JavaScript</a>

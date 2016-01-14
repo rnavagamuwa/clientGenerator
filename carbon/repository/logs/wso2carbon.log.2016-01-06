@@ -1,0 +1,1344 @@
+TID: [0] [] [2016-01-06 14:18:46,703]  INFO {org.wso2.carbon.core.internal.CarbonCoreActivator} -  Starting WSO2 Carbon... {org.wso2.carbon.core.internal.CarbonCoreActivator}
+TID: [0] [] [2016-01-06 14:18:46,705]  INFO {org.wso2.carbon.core.internal.CarbonCoreActivator} -  Operating System : Linux 3.13.0-74-generic, amd64 {org.wso2.carbon.core.internal.CarbonCoreActivator}
+TID: [0] [] [2016-01-06 14:18:46,705]  INFO {org.wso2.carbon.core.internal.CarbonCoreActivator} -  Java Home        : /home/randika/Documents/WSO2_stuff/jdk1.7.0_79/jre {org.wso2.carbon.core.internal.CarbonCoreActivator}
+TID: [0] [] [2016-01-06 14:18:46,705]  INFO {org.wso2.carbon.core.internal.CarbonCoreActivator} -  Java Version     : 1.7.0_79 {org.wso2.carbon.core.internal.CarbonCoreActivator}
+TID: [0] [] [2016-01-06 14:18:46,705]  INFO {org.wso2.carbon.core.internal.CarbonCoreActivator} -  Java VM          : Java HotSpot(TM) 64-Bit Server VM 24.79-b02,Oracle Corporation {org.wso2.carbon.core.internal.CarbonCoreActivator}
+TID: [0] [] [2016-01-06 14:18:46,705]  INFO {org.wso2.carbon.core.internal.CarbonCoreActivator} -  Carbon Home      : /home/randika/Documents/WSO2_stuff/jaggery-0.9.0-SNAPSHOT/carbon {org.wso2.carbon.core.internal.CarbonCoreActivator}
+TID: [0] [] [2016-01-06 14:18:46,706]  INFO {org.wso2.carbon.core.internal.CarbonCoreActivator} -  Java Temp Dir    : /home/randika/Documents/WSO2_stuff/jaggery-0.9.0-SNAPSHOT/carbon/tmp {org.wso2.carbon.core.internal.CarbonCoreActivator}
+TID: [0] [] [2016-01-06 14:18:46,706]  INFO {org.wso2.carbon.core.internal.CarbonCoreActivator} -  User             : randika, en-US, Asia/Colombo {org.wso2.carbon.core.internal.CarbonCoreActivator}
+TID: [0] [] [2016-01-06 14:18:50,341]  INFO {org.wso2.carbon.registry.core.jdbc.EmbeddedRegistryService} -  Configured Registry in 85ms {org.wso2.carbon.registry.core.jdbc.EmbeddedRegistryService}
+TID: [0] [] [2016-01-06 14:18:50,477]  INFO {org.wso2.carbon.registry.core.internal.RegistryCoreServiceComponent} -  Registry Mode    : READ-WRITE {org.wso2.carbon.registry.core.internal.RegistryCoreServiceComponent}
+TID: [0] [] [2016-01-06 14:18:51,603]  INFO {org.apache.axis2.deployment.ClusterBuilder} -  Clustering has been disabled {org.apache.axis2.deployment.ClusterBuilder}
+TID: [0] [] [2016-01-06 14:18:51,603]  INFO {org.apache.axis2.deployment.ClusterBuilder} -  Clustering has been disabled {org.apache.axis2.deployment.ClusterBuilder}
+TID: [0] [] [2016-01-06 14:18:52,103]  INFO {org.wso2.carbon.core.CarbonAxisConfigurator} -  No modules directory was found under /home/randika/Documents/WSO2_stuff/jaggery-0.9.0-SNAPSHOT. {org.wso2.carbon.core.CarbonAxisConfigurator}
+TID: [0] [] [2016-01-06 14:18:52,194]  INFO {org.apache.axis2.transport.tcp.TCPTransportSender} -  TCP Sender started {org.apache.axis2.transport.tcp.TCPTransportSender}
+TID: [0] [] [2016-01-06 14:18:52,194]  INFO {org.apache.axis2.transport.tcp.TCPTransportSender} -  TCP Sender started {org.apache.axis2.transport.tcp.TCPTransportSender}
+TID: [0] [] [2016-01-06 14:18:52,354]  INFO {org.jaggeryjs.jaggery.app.mgt.TomcatJaggeryWebappsDeployer} -  Deployed webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/coffeeshop].File[/home/randika/Documents/WSO2_stuff/jaggery-0.9.0-SNAPSHOT/apps/coffeeshop] {org.jaggeryjs.jaggery.app.mgt.TomcatJaggeryWebappsDeployer}
+TID: [0] [] [2016-01-06 14:18:53,282]  INFO {JAGGERY.init:js} -  Initializing sample Jaggery app {JAGGERY.init:js}
+TID: [0] [] [2016-01-06 14:18:53,283]  INFO {org.jaggeryjs.jaggery.app.mgt.TomcatJaggeryWebappsDeployer} -  Deployed webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/sample].File[/home/randika/Documents/WSO2_stuff/jaggery-0.9.0-SNAPSHOT/apps/sample] {org.jaggeryjs.jaggery.app.mgt.TomcatJaggeryWebappsDeployer}
+TID: [0] [] [2016-01-06 14:18:53,317]  INFO {org.jaggeryjs.jaggery.app.mgt.TomcatJaggeryWebappsDeployer} -  Deployed webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/taskmaster].File[/home/randika/Documents/WSO2_stuff/jaggery-0.9.0-SNAPSHOT/apps/taskmaster] {org.jaggeryjs.jaggery.app.mgt.TomcatJaggeryWebappsDeployer}
+TID: [0] [] [2016-01-06 14:18:53,349]  INFO {org.jaggeryjs.jaggery.app.mgt.TomcatJaggeryWebappsDeployer} -  Deployed webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/freshometer].File[/home/randika/Documents/WSO2_stuff/jaggery-0.9.0-SNAPSHOT/apps/freshometer] {org.jaggeryjs.jaggery.app.mgt.TomcatJaggeryWebappsDeployer}
+TID: [0] [] [2016-01-06 14:18:53,388]  INFO {org.jaggeryjs.jaggery.app.mgt.TomcatJaggeryWebappsDeployer} -  Deployed webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/].File[/home/randika/Documents/WSO2_stuff/jaggery-0.9.0-SNAPSHOT/apps/ROOT] {org.jaggeryjs.jaggery.app.mgt.TomcatJaggeryWebappsDeployer}
+TID: [0] [] [2016-01-06 14:18:53,445]  INFO {org.jaggeryjs.jaggery.app.mgt.TomcatJaggeryWebappsDeployer} -  Deployed webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/shout].File[/home/randika/Documents/WSO2_stuff/jaggery-0.9.0-SNAPSHOT/apps/shout] {org.jaggeryjs.jaggery.app.mgt.TomcatJaggeryWebappsDeployer}
+TID: [0] [] [2016-01-06 14:18:53,627]  INFO {org.apache.axis2.deployment.ModuleDeployer} -  Deploying module: addressing-1.6.1-wso2v7 - file:/home/randika/Documents/WSO2_stuff/jaggery-0.9.0-SNAPSHOT/carbon/repository/deployment/client/modules/addressing-1.6.1-wso2v7.mar {org.apache.axis2.deployment.ModuleDeployer}
+TID: [0] [] [2016-01-06 14:18:53,627]  INFO {org.apache.axis2.deployment.ModuleDeployer} -  Deploying module: addressing-1.6.1-wso2v7 - file:/home/randika/Documents/WSO2_stuff/jaggery-0.9.0-SNAPSHOT/carbon/repository/deployment/client/modules/addressing-1.6.1-wso2v7.mar {org.apache.axis2.deployment.ModuleDeployer}
+TID: [0] [] [2016-01-06 14:18:53,632]  INFO {org.apache.axis2.transport.tcp.TCPTransportSender} -  TCP Sender started {org.apache.axis2.transport.tcp.TCPTransportSender}
+TID: [0] [] [2016-01-06 14:18:53,632]  INFO {org.apache.axis2.transport.tcp.TCPTransportSender} -  TCP Sender started {org.apache.axis2.transport.tcp.TCPTransportSender}
+TID: [0] [] [2016-01-06 14:18:54,722]  INFO {org.wso2.carbon.core.init.CarbonServerManager} -  Repository       : /home/randika/Documents/WSO2_stuff/jaggery-0.9.0-SNAPSHOT/ {org.wso2.carbon.core.init.CarbonServerManager}
+TID: [0] [] [2016-01-06 14:18:54,757]  INFO {org.wso2.carbon.core.internal.permission.update.PermissionUpdater} -  Permission cache updated for tenant -1234 {org.wso2.carbon.core.internal.permission.update.PermissionUpdater}
+TID: [0] [] [2016-01-06 14:18:54,795]  INFO {org.wso2.carbon.core.transports.http.HttpsTransportListener} -  HTTPS port       : 9443 {org.wso2.carbon.core.transports.http.HttpsTransportListener}
+TID: [0] [] [2016-01-06 14:18:54,796]  INFO {org.wso2.carbon.core.transports.http.HttpTransportListener} -  HTTP port        : 9763 {org.wso2.carbon.core.transports.http.HttpTransportListener}
+TID: [0] [] [2016-01-06 14:18:55,606]  INFO {org.wso2.carbon.core.init.JMXServerManager} -  JMX Service URL  : service:jmx:rmi://localhost:11111/jndi/rmi://localhost:9999/jmxrmi {org.wso2.carbon.core.init.JMXServerManager}
+TID: [0] [] [2016-01-06 14:18:55,607]  INFO {org.wso2.carbon.core.internal.StartupFinalizerServiceComponent} -  Server           :  Jaggery Runtime-0.9.0-SNAPSHOT {org.wso2.carbon.core.internal.StartupFinalizerServiceComponent}
+TID: [0] [] [2016-01-06 14:18:55,607]  INFO {org.wso2.carbon.core.internal.StartupFinalizerServiceComponent} -  WSO2 Carbon started in 17 sec {org.wso2.carbon.core.internal.StartupFinalizerServiceComponent}
+TID: [0] [] [2016-01-06 14:18:55,998]  INFO {org.wso2.carbon.ui.internal.CarbonUIServiceComponent} -  Mgt Console URL  : https://10.100.4.166:9443/admin/carbon/ {org.wso2.carbon.ui.internal.CarbonUIServiceComponent}
+TID: [0] [] [2016-01-06 14:19:08,541]  INFO {org.jaggeryjs.jaggery.app.mgt.TomcatJaggeryWebappsDeployer} -  Deployed webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/Untitled Folder].File[/home/randika/Documents/WSO2_stuff/jaggery-0.9.0-SNAPSHOT/apps/Untitled Folder] {org.jaggeryjs.jaggery.app.mgt.TomcatJaggeryWebappsDeployer}
+TID: [0] [] [2016-01-06 14:19:23,641]  INFO {org.wso2.carbon.webapp.mgt.WebApplication} -  Unloaded webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/Untitled Folder] {org.wso2.carbon.webapp.mgt.WebApplication}
+TID: [0] [] [2016-01-06 14:19:23,641]  INFO {org.wso2.carbon.webapp.mgt.TomcatGenericWebappsDeployer} -  Undeployed webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/Untitled Folder].File[/home/randika/Documents/WSO2_stuff/jaggery-0.9.0-SNAPSHOT/apps/Untitled Folder] {org.wso2.carbon.webapp.mgt.TomcatGenericWebappsDeployer}
+TID: [0] [] [2016-01-06 14:19:23,665]  INFO {org.jaggeryjs.jaggery.app.mgt.TomcatJaggeryWebappsDeployer} -  Deployed webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/helloworld].File[/home/randika/Documents/WSO2_stuff/jaggery-0.9.0-SNAPSHOT/apps/helloworld] {org.jaggeryjs.jaggery.app.mgt.TomcatJaggeryWebappsDeployer}
+TID: [0] [] [2016-01-06 14:20:08,724]  INFO {org.wso2.carbon.webapp.mgt.WebApplication} -  Unloaded webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/helloworld] {org.wso2.carbon.webapp.mgt.WebApplication}
+TID: [0] [] [2016-01-06 14:20:08,725]  INFO {org.wso2.carbon.webapp.mgt.TomcatGenericWebappsDeployer} -  Undeployed webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/helloworld].File[/home/randika/Documents/WSO2_stuff/jaggery-0.9.0-SNAPSHOT/apps/helloworld] {org.wso2.carbon.webapp.mgt.TomcatGenericWebappsDeployer}
+TID: [0] [] [2016-01-06 14:20:08,746]  INFO {org.jaggeryjs.jaggery.app.mgt.TomcatJaggeryWebappsDeployer} -  Deployed webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/helloapp].File[/home/randika/Documents/WSO2_stuff/jaggery-0.9.0-SNAPSHOT/apps/helloapp] {org.jaggeryjs.jaggery.app.mgt.TomcatJaggeryWebappsDeployer}
+TID: [0] [] [2016-01-06 14:44:33,241] ERROR {org.jaggeryjs.jaggery.core.manager.WebAppManager} -  Requested resource /locale_en.json cannot be found {org.jaggeryjs.jaggery.core.manager.WebAppManager}
+TID: [0] [] [2016-01-06 14:44:45,227] ERROR {org.jaggeryjs.scriptengine.engine.RhinoEngine} -  org.mozilla.javascript.EcmaError: ReferenceError: "i18n" is not defined. (/helloapp//helloworld.jag#2) {org.jaggeryjs.scriptengine.engine.RhinoEngine}
+TID: [0] [] [2016-01-06 14:44:45,229] ERROR {org.jaggeryjs.jaggery.core.manager.WebAppManager} -  org.mozilla.javascript.EcmaError: ReferenceError: "i18n" is not defined. (/helloapp//helloworld.jag#2) {org.jaggeryjs.jaggery.core.manager.WebAppManager}
+org.jaggeryjs.scriptengine.exceptions.ScriptException: org.mozilla.javascript.EcmaError: ReferenceError: "i18n" is not defined. (/helloapp//helloworld.jag#2)
+	at org.jaggeryjs.scriptengine.engine.RhinoEngine.execScript(RhinoEngine.java:582)
+	at org.jaggeryjs.scriptengine.engine.RhinoEngine.exec(RhinoEngine.java:280)
+	at org.jaggeryjs.jaggery.core.manager.WebAppManager.execute(WebAppManager.java:298)
+	at org.jaggeryjs.jaggery.core.JaggeryServlet.doGet(JaggeryServlet.java:24)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:621)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:722)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:305)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:690)
+	at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:477)
+	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:369)
+	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:329)
+	at org.jaggeryjs.jaggery.core.JaggeryFilter.doFilter(JaggeryFilter.java:21)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:243)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:225)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:123)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:472)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:168)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:98)
+	at org.wso2.carbon.tomcat.ext.valves.CompositeValve.invoke(CompositeValve.java:172)
+	at org.wso2.carbon.tomcat.ext.valves.CarbonStuckThreadDetectionValve.invoke(CarbonStuckThreadDetectionValve.java:156)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:927)
+	at org.wso2.carbon.tomcat.ext.valves.CarbonContextCreatorValve.invoke(CarbonContextCreatorValve.java:52)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:118)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:407)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1001)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:579)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.run(NioEndpoint.java:1653)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.mozilla.javascript.EcmaError: ReferenceError: "i18n" is not defined. (/helloapp//helloworld.jag#2)
+	at org.mozilla.javascript.ScriptRuntime.constructError(ScriptRuntime.java:3687)
+	at org.mozilla.javascript.ScriptRuntime.constructError(ScriptRuntime.java:3665)
+	at org.mozilla.javascript.ScriptRuntime.notFoundError(ScriptRuntime.java:3750)
+	at org.mozilla.javascript.ScriptRuntime.name(ScriptRuntime.java:1728)
+	at org.jaggeryjs.rhino.helloapp.c0._c_script_0(/helloapp//helloworld.jag:2)
+	at org.jaggeryjs.rhino.helloapp.c0.call(/helloapp//helloworld.jag)
+	at org.mozilla.javascript.ContextFactory.doTopCall(ContextFactory.java:394)
+	at org.mozilla.javascript.ScriptRuntime.doTopCall(ScriptRuntime.java:3091)
+	at org.jaggeryjs.rhino.helloapp.c0.call(/helloapp//helloworld.jag)
+	at org.jaggeryjs.rhino.helloapp.c0.exec(/helloapp//helloworld.jag)
+	at org.jaggeryjs.scriptengine.engine.RhinoEngine.execScript(RhinoEngine.java:577)
+	... 31 more
+TID: [0] [] [2016-01-06 14:45:00,722] ERROR {org.jaggeryjs.jaggery.core.manager.WebAppManager} -  Requested resource /locale_en.json cannot be found {org.jaggeryjs.jaggery.core.manager.WebAppManager}
+TID: [0] [] [2016-01-06 14:46:25,613]  INFO {org.apache.axis2.transport.http.HTTPSender} -  Unable to sendViaPost to url[http://stratoslive.wso2.com/services/Version] {org.apache.axis2.transport.http.HTTPSender}
+org.apache.axis2.AxisFault: Transport error: 405 Error: Not Allowed
+	at org.apache.axis2.transport.http.HTTPSender.handleResponse(HTTPSender.java:308)
+	at org.apache.axis2.transport.http.HTTPSender.sendViaPost(HTTPSender.java:194)
+	at org.apache.axis2.transport.http.HTTPSender.send(HTTPSender.java:75)
+	at org.apache.axis2.transport.http.CommonsHTTPTransportSender.writeMessageWithCommons(CommonsHTTPTransportSender.java:450)
+	at org.apache.axis2.transport.http.CommonsHTTPTransportSender.invoke(CommonsHTTPTransportSender.java:277)
+	at org.apache.axis2.engine.AxisEngine.send(AxisEngine.java:442)
+	at org.apache.axis2.description.OutInAxisOperationClient.send(OutInAxisOperation.java:398)
+	at org.apache.axis2.description.OutInAxisOperationClient.executeImpl(OutInAxisOperation.java:224)
+	at org.apache.axis2.client.OperationClient.execute(OperationClient.java:149)
+	at org.apache.axis2.client.ServiceClient.sendReceive(ServiceClient.java:554)
+	at org.jaggeryjs.hostobjects.ws.WSRequestHostObject.jsFunction_send(WSRequestHostObject.java:362)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.mozilla.javascript.MemberBox.invoke(MemberBox.java:126)
+	at org.mozilla.javascript.FunctionObject.call(FunctionObject.java:386)
+	at org.mozilla.javascript.optimizer.OptRuntime.call1(OptRuntime.java:32)
+	at org.jaggeryjs.rhino.helloapp.c0._c_invokeGetVersion_1(/helloapp//helloworld.jag:16)
+	at org.jaggeryjs.rhino.helloapp.c0.call(/helloapp//helloworld.jag)
+	at org.mozilla.javascript.optimizer.OptRuntime.callName0(OptRuntime.java:74)
+	at org.jaggeryjs.rhino.helloapp.c0._c_script_0(/helloapp//helloworld.jag:25)
+	at org.jaggeryjs.rhino.helloapp.c0.call(/helloapp//helloworld.jag)
+	at org.mozilla.javascript.ContextFactory.doTopCall(ContextFactory.java:394)
+	at org.mozilla.javascript.ScriptRuntime.doTopCall(ScriptRuntime.java:3091)
+	at org.jaggeryjs.rhino.helloapp.c0.call(/helloapp//helloworld.jag)
+	at org.jaggeryjs.rhino.helloapp.c0.exec(/helloapp//helloworld.jag)
+	at org.jaggeryjs.scriptengine.engine.RhinoEngine.execScript(RhinoEngine.java:577)
+	at org.jaggeryjs.scriptengine.engine.RhinoEngine.exec(RhinoEngine.java:280)
+	at org.jaggeryjs.jaggery.core.manager.WebAppManager.execute(WebAppManager.java:298)
+	at org.jaggeryjs.jaggery.core.JaggeryServlet.doGet(JaggeryServlet.java:24)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:621)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:722)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:305)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:690)
+	at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:477)
+	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:369)
+	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:329)
+	at org.jaggeryjs.jaggery.core.JaggeryFilter.doFilter(JaggeryFilter.java:21)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:243)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:225)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:123)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:472)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:168)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:98)
+	at org.wso2.carbon.tomcat.ext.valves.CompositeValve.invoke(CompositeValve.java:172)
+	at org.wso2.carbon.tomcat.ext.valves.CarbonStuckThreadDetectionValve.invoke(CarbonStuckThreadDetectionValve.java:156)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:927)
+	at org.wso2.carbon.tomcat.ext.valves.CarbonContextCreatorValve.invoke(CarbonContextCreatorValve.java:52)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:118)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:407)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1001)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:579)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.run(NioEndpoint.java:1653)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+TID: [0] [] [2016-01-06 14:46:25,613]  INFO {org.apache.axis2.transport.http.HTTPSender} -  Unable to sendViaPost to url[http://stratoslive.wso2.com/services/Version] {org.apache.axis2.transport.http.HTTPSender}
+org.apache.axis2.AxisFault: Transport error: 405 Error: Not Allowed
+	at org.apache.axis2.transport.http.HTTPSender.handleResponse(HTTPSender.java:308)
+	at org.apache.axis2.transport.http.HTTPSender.sendViaPost(HTTPSender.java:194)
+	at org.apache.axis2.transport.http.HTTPSender.send(HTTPSender.java:75)
+	at org.apache.axis2.transport.http.CommonsHTTPTransportSender.writeMessageWithCommons(CommonsHTTPTransportSender.java:450)
+	at org.apache.axis2.transport.http.CommonsHTTPTransportSender.invoke(CommonsHTTPTransportSender.java:277)
+	at org.apache.axis2.engine.AxisEngine.send(AxisEngine.java:442)
+	at org.apache.axis2.description.OutInAxisOperationClient.send(OutInAxisOperation.java:398)
+	at org.apache.axis2.description.OutInAxisOperationClient.executeImpl(OutInAxisOperation.java:224)
+	at org.apache.axis2.client.OperationClient.execute(OperationClient.java:149)
+	at org.apache.axis2.client.ServiceClient.sendReceive(ServiceClient.java:554)
+	at org.jaggeryjs.hostobjects.ws.WSRequestHostObject.jsFunction_send(WSRequestHostObject.java:362)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.mozilla.javascript.MemberBox.invoke(MemberBox.java:126)
+	at org.mozilla.javascript.FunctionObject.call(FunctionObject.java:386)
+	at org.mozilla.javascript.optimizer.OptRuntime.call1(OptRuntime.java:32)
+	at org.jaggeryjs.rhino.helloapp.c0._c_invokeGetVersion_1(/helloapp//helloworld.jag:16)
+	at org.jaggeryjs.rhino.helloapp.c0.call(/helloapp//helloworld.jag)
+	at org.mozilla.javascript.optimizer.OptRuntime.callName0(OptRuntime.java:74)
+	at org.jaggeryjs.rhino.helloapp.c0._c_script_0(/helloapp//helloworld.jag:25)
+	at org.jaggeryjs.rhino.helloapp.c0.call(/helloapp//helloworld.jag)
+	at org.mozilla.javascript.ContextFactory.doTopCall(ContextFactory.java:394)
+	at org.mozilla.javascript.ScriptRuntime.doTopCall(ScriptRuntime.java:3091)
+	at org.jaggeryjs.rhino.helloapp.c0.call(/helloapp//helloworld.jag)
+	at org.jaggeryjs.rhino.helloapp.c0.exec(/helloapp//helloworld.jag)
+	at org.jaggeryjs.scriptengine.engine.RhinoEngine.execScript(RhinoEngine.java:577)
+	at org.jaggeryjs.scriptengine.engine.RhinoEngine.exec(RhinoEngine.java:280)
+	at org.jaggeryjs.jaggery.core.manager.WebAppManager.execute(WebAppManager.java:298)
+	at org.jaggeryjs.jaggery.core.JaggeryServlet.doGet(JaggeryServlet.java:24)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:621)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:722)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:305)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:690)
+	at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:477)
+	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:369)
+	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:329)
+	at org.jaggeryjs.jaggery.core.JaggeryFilter.doFilter(JaggeryFilter.java:21)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:243)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:225)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:123)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:472)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:168)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:98)
+	at org.wso2.carbon.tomcat.ext.valves.CompositeValve.invoke(CompositeValve.java:172)
+	at org.wso2.carbon.tomcat.ext.valves.CarbonStuckThreadDetectionValve.invoke(CarbonStuckThreadDetectionValve.java:156)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:927)
+	at org.wso2.carbon.tomcat.ext.valves.CarbonContextCreatorValve.invoke(CarbonContextCreatorValve.java:52)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:118)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:407)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1001)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:579)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.run(NioEndpoint.java:1653)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+TID: [0] [] [2016-01-06 14:46:25,617] ERROR {org.jaggeryjs.hostobjects.ws.WSRequestHostObject} -  Error occured while invoking the service {org.jaggeryjs.hostobjects.ws.WSRequestHostObject}
+org.apache.axis2.AxisFault: Transport error: 405 Error: Not Allowed
+	at org.apache.axis2.transport.http.HTTPSender.handleResponse(HTTPSender.java:308)
+	at org.apache.axis2.transport.http.HTTPSender.sendViaPost(HTTPSender.java:194)
+	at org.apache.axis2.transport.http.HTTPSender.send(HTTPSender.java:75)
+	at org.apache.axis2.transport.http.CommonsHTTPTransportSender.writeMessageWithCommons(CommonsHTTPTransportSender.java:450)
+	at org.apache.axis2.transport.http.CommonsHTTPTransportSender.invoke(CommonsHTTPTransportSender.java:277)
+	at org.apache.axis2.engine.AxisEngine.send(AxisEngine.java:442)
+	at org.apache.axis2.description.OutInAxisOperationClient.send(OutInAxisOperation.java:398)
+	at org.apache.axis2.description.OutInAxisOperationClient.executeImpl(OutInAxisOperation.java:224)
+	at org.apache.axis2.client.OperationClient.execute(OperationClient.java:149)
+	at org.apache.axis2.client.ServiceClient.sendReceive(ServiceClient.java:554)
+	at org.jaggeryjs.hostobjects.ws.WSRequestHostObject.jsFunction_send(WSRequestHostObject.java:362)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.mozilla.javascript.MemberBox.invoke(MemberBox.java:126)
+	at org.mozilla.javascript.FunctionObject.call(FunctionObject.java:386)
+	at org.mozilla.javascript.optimizer.OptRuntime.call1(OptRuntime.java:32)
+	at org.jaggeryjs.rhino.helloapp.c0._c_invokeGetVersion_1(/helloapp//helloworld.jag:16)
+	at org.jaggeryjs.rhino.helloapp.c0.call(/helloapp//helloworld.jag)
+	at org.mozilla.javascript.optimizer.OptRuntime.callName0(OptRuntime.java:74)
+	at org.jaggeryjs.rhino.helloapp.c0._c_script_0(/helloapp//helloworld.jag:25)
+	at org.jaggeryjs.rhino.helloapp.c0.call(/helloapp//helloworld.jag)
+	at org.mozilla.javascript.ContextFactory.doTopCall(ContextFactory.java:394)
+	at org.mozilla.javascript.ScriptRuntime.doTopCall(ScriptRuntime.java:3091)
+	at org.jaggeryjs.rhino.helloapp.c0.call(/helloapp//helloworld.jag)
+	at org.jaggeryjs.rhino.helloapp.c0.exec(/helloapp//helloworld.jag)
+	at org.jaggeryjs.scriptengine.engine.RhinoEngine.execScript(RhinoEngine.java:577)
+	at org.jaggeryjs.scriptengine.engine.RhinoEngine.exec(RhinoEngine.java:280)
+	at org.jaggeryjs.jaggery.core.manager.WebAppManager.execute(WebAppManager.java:298)
+	at org.jaggeryjs.jaggery.core.JaggeryServlet.doGet(JaggeryServlet.java:24)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:621)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:722)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:305)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:690)
+	at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:477)
+	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:369)
+	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:329)
+	at org.jaggeryjs.jaggery.core.JaggeryFilter.doFilter(JaggeryFilter.java:21)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:243)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:225)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:123)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:472)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:168)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:98)
+	at org.wso2.carbon.tomcat.ext.valves.CompositeValve.invoke(CompositeValve.java:172)
+	at org.wso2.carbon.tomcat.ext.valves.CarbonStuckThreadDetectionValve.invoke(CarbonStuckThreadDetectionValve.java:156)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:927)
+	at org.wso2.carbon.tomcat.ext.valves.CarbonContextCreatorValve.invoke(CarbonContextCreatorValve.java:52)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:118)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:407)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1001)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:579)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.run(NioEndpoint.java:1653)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+TID: [0] [] [2016-01-06 14:46:25,620] ERROR {JAGGERY.helloworld:jag} -  JavaException: org.jaggeryjs.scriptengine.exceptions.ScriptException: Error occured while invoking the service {JAGGERY.helloworld:jag}
+TID: [0] [] [2016-01-06 14:58:06,367] ERROR {org.jaggeryjs.scriptengine.engine.RhinoEngine} -  org.mozilla.javascript.WrappedException: Wrapped org.jaggeryjs.scriptengine.exceptions.ScriptException: javax.mail.internet.AddressException: Illegal address in string ``'' (/helloapp//helloworld.jag#10) {org.jaggeryjs.scriptengine.engine.RhinoEngine}
+TID: [0] [] [2016-01-06 14:58:06,368] ERROR {org.jaggeryjs.jaggery.core.manager.WebAppManager} -  org.mozilla.javascript.WrappedException: Wrapped org.jaggeryjs.scriptengine.exceptions.ScriptException: javax.mail.internet.AddressException: Illegal address in string ``'' (/helloapp//helloworld.jag#10) {org.jaggeryjs.jaggery.core.manager.WebAppManager}
+org.jaggeryjs.scriptengine.exceptions.ScriptException: org.mozilla.javascript.WrappedException: Wrapped org.jaggeryjs.scriptengine.exceptions.ScriptException: javax.mail.internet.AddressException: Illegal address in string ``'' (/helloapp//helloworld.jag#10)
+	at org.jaggeryjs.scriptengine.engine.RhinoEngine.execScript(RhinoEngine.java:582)
+	at org.jaggeryjs.scriptengine.engine.RhinoEngine.exec(RhinoEngine.java:280)
+	at org.jaggeryjs.jaggery.core.manager.WebAppManager.execute(WebAppManager.java:298)
+	at org.jaggeryjs.jaggery.core.JaggeryServlet.doGet(JaggeryServlet.java:24)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:621)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:722)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:305)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:690)
+	at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:477)
+	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:369)
+	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:329)
+	at org.jaggeryjs.jaggery.core.JaggeryFilter.doFilter(JaggeryFilter.java:21)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:243)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:225)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:123)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:472)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:168)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:98)
+	at org.wso2.carbon.tomcat.ext.valves.CompositeValve.invoke(CompositeValve.java:172)
+	at org.wso2.carbon.tomcat.ext.valves.CarbonStuckThreadDetectionValve.invoke(CarbonStuckThreadDetectionValve.java:156)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:927)
+	at org.wso2.carbon.tomcat.ext.valves.CarbonContextCreatorValve.invoke(CarbonContextCreatorValve.java:52)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:118)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:407)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1001)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:579)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.run(NioEndpoint.java:1653)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.mozilla.javascript.WrappedException: Wrapped org.jaggeryjs.scriptengine.exceptions.ScriptException: javax.mail.internet.AddressException: Illegal address in string ``'' (/helloapp//helloworld.jag#10)
+	at org.mozilla.javascript.Context.throwAsScriptRuntimeEx(Context.java:1754)
+	at org.mozilla.javascript.MemberBox.invoke(MemberBox.java:148)
+	at org.mozilla.javascript.ScriptableObject$GetterSlot.setValue(ScriptableObject.java:270)
+	at org.mozilla.javascript.ScriptableObject.putImpl(ScriptableObject.java:2642)
+	at org.mozilla.javascript.ScriptableObject.put(ScriptableObject.java:492)
+	at org.mozilla.javascript.ScriptableObject.putProperty(ScriptableObject.java:2347)
+	at org.mozilla.javascript.ScriptRuntime.setObjectProp(ScriptRuntime.java:1598)
+	at org.mozilla.javascript.ScriptRuntime.setObjectProp(ScriptRuntime.java:1592)
+	at org.jaggeryjs.rhino.helloapp.c0._c_script_0(/helloapp//helloworld.jag:10)
+	at org.jaggeryjs.rhino.helloapp.c0.call(/helloapp//helloworld.jag)
+	at org.mozilla.javascript.ContextFactory.doTopCall(ContextFactory.java:394)
+	at org.mozilla.javascript.ScriptRuntime.doTopCall(ScriptRuntime.java:3091)
+	at org.jaggeryjs.rhino.helloapp.c0.call(/helloapp//helloworld.jag)
+	at org.jaggeryjs.rhino.helloapp.c0.exec(/helloapp//helloworld.jag)
+	at org.jaggeryjs.scriptengine.engine.RhinoEngine.execScript(RhinoEngine.java:577)
+	... 31 more
+Caused by: org.jaggeryjs.scriptengine.exceptions.ScriptException: javax.mail.internet.AddressException: Illegal address in string ``''
+	at org.jaggeryjs.hostobjects.email.SenderHostObject.jsSet_from(SenderHostObject.java:203)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.mozilla.javascript.MemberBox.invoke(MemberBox.java:126)
+	... 44 more
+Caused by: javax.mail.internet.AddressException: Illegal address in string ``''
+	at javax.mail.internet.InternetAddress.<init>(InternetAddress.java:94)
+	at org.jaggeryjs.hostobjects.email.SenderHostObject.jsSet_from(SenderHostObject.java:201)
+	... 49 more
+TID: [0] [] [2016-01-06 14:58:48,311] ERROR {org.jaggeryjs.scriptengine.engine.RhinoEngine} -  org.mozilla.javascript.WrappedException: Wrapped org.jaggeryjs.scriptengine.exceptions.ScriptException: javax.mail.internet.AddressException: Illegal address in string ``'' (/helloapp//helloworld.jag#10) {org.jaggeryjs.scriptengine.engine.RhinoEngine}
+TID: [0] [] [2016-01-06 14:58:48,312] ERROR {org.jaggeryjs.jaggery.core.manager.WebAppManager} -  org.mozilla.javascript.WrappedException: Wrapped org.jaggeryjs.scriptengine.exceptions.ScriptException: javax.mail.internet.AddressException: Illegal address in string ``'' (/helloapp//helloworld.jag#10) {org.jaggeryjs.jaggery.core.manager.WebAppManager}
+org.jaggeryjs.scriptengine.exceptions.ScriptException: org.mozilla.javascript.WrappedException: Wrapped org.jaggeryjs.scriptengine.exceptions.ScriptException: javax.mail.internet.AddressException: Illegal address in string ``'' (/helloapp//helloworld.jag#10)
+	at org.jaggeryjs.scriptengine.engine.RhinoEngine.execScript(RhinoEngine.java:582)
+	at org.jaggeryjs.scriptengine.engine.RhinoEngine.exec(RhinoEngine.java:280)
+	at org.jaggeryjs.jaggery.core.manager.WebAppManager.execute(WebAppManager.java:298)
+	at org.jaggeryjs.jaggery.core.JaggeryServlet.doGet(JaggeryServlet.java:24)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:621)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:722)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:305)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:690)
+	at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:477)
+	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:369)
+	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:329)
+	at org.jaggeryjs.jaggery.core.JaggeryFilter.doFilter(JaggeryFilter.java:21)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:243)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:225)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:123)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:472)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:168)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:98)
+	at org.wso2.carbon.tomcat.ext.valves.CompositeValve.invoke(CompositeValve.java:172)
+	at org.wso2.carbon.tomcat.ext.valves.CarbonStuckThreadDetectionValve.invoke(CarbonStuckThreadDetectionValve.java:156)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:927)
+	at org.wso2.carbon.tomcat.ext.valves.CarbonContextCreatorValve.invoke(CarbonContextCreatorValve.java:52)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:118)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:407)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1001)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:579)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.run(NioEndpoint.java:1653)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.mozilla.javascript.WrappedException: Wrapped org.jaggeryjs.scriptengine.exceptions.ScriptException: javax.mail.internet.AddressException: Illegal address in string ``'' (/helloapp//helloworld.jag#10)
+	at org.mozilla.javascript.Context.throwAsScriptRuntimeEx(Context.java:1754)
+	at org.mozilla.javascript.MemberBox.invoke(MemberBox.java:148)
+	at org.mozilla.javascript.ScriptableObject$GetterSlot.setValue(ScriptableObject.java:270)
+	at org.mozilla.javascript.ScriptableObject.putImpl(ScriptableObject.java:2642)
+	at org.mozilla.javascript.ScriptableObject.put(ScriptableObject.java:492)
+	at org.mozilla.javascript.ScriptableObject.putProperty(ScriptableObject.java:2347)
+	at org.mozilla.javascript.ScriptRuntime.setObjectProp(ScriptRuntime.java:1598)
+	at org.mozilla.javascript.ScriptRuntime.setObjectProp(ScriptRuntime.java:1592)
+	at org.jaggeryjs.rhino.helloapp.c0._c_script_0(/helloapp//helloworld.jag:10)
+	at org.jaggeryjs.rhino.helloapp.c0.call(/helloapp//helloworld.jag)
+	at org.mozilla.javascript.ContextFactory.doTopCall(ContextFactory.java:394)
+	at org.mozilla.javascript.ScriptRuntime.doTopCall(ScriptRuntime.java:3091)
+	at org.jaggeryjs.rhino.helloapp.c0.call(/helloapp//helloworld.jag)
+	at org.jaggeryjs.rhino.helloapp.c0.exec(/helloapp//helloworld.jag)
+	at org.jaggeryjs.scriptengine.engine.RhinoEngine.execScript(RhinoEngine.java:577)
+	... 31 more
+Caused by: org.jaggeryjs.scriptengine.exceptions.ScriptException: javax.mail.internet.AddressException: Illegal address in string ``''
+	at org.jaggeryjs.hostobjects.email.SenderHostObject.jsSet_from(SenderHostObject.java:203)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.mozilla.javascript.MemberBox.invoke(MemberBox.java:126)
+	... 44 more
+Caused by: javax.mail.internet.AddressException: Illegal address in string ``''
+	at javax.mail.internet.InternetAddress.<init>(InternetAddress.java:94)
+	at org.jaggeryjs.hostobjects.email.SenderHostObject.jsSet_from(SenderHostObject.java:201)
+	... 49 more
+TID: [0] [] [2016-01-06 14:58:57,495] ERROR {org.jaggeryjs.scriptengine.engine.RhinoEngine} -  org.mozilla.javascript.WrappedException: Wrapped org.jaggeryjs.scriptengine.exceptions.ScriptException: javax.mail.internet.AddressException: Illegal address in string ``'' (/helloapp//helloworld.jag#6) {org.jaggeryjs.scriptengine.engine.RhinoEngine}
+TID: [0] [] [2016-01-06 14:58:57,496] ERROR {org.jaggeryjs.jaggery.core.manager.WebAppManager} -  org.mozilla.javascript.WrappedException: Wrapped org.jaggeryjs.scriptengine.exceptions.ScriptException: javax.mail.internet.AddressException: Illegal address in string ``'' (/helloapp//helloworld.jag#6) {org.jaggeryjs.jaggery.core.manager.WebAppManager}
+org.jaggeryjs.scriptengine.exceptions.ScriptException: org.mozilla.javascript.WrappedException: Wrapped org.jaggeryjs.scriptengine.exceptions.ScriptException: javax.mail.internet.AddressException: Illegal address in string ``'' (/helloapp//helloworld.jag#6)
+	at org.jaggeryjs.scriptengine.engine.RhinoEngine.execScript(RhinoEngine.java:582)
+	at org.jaggeryjs.scriptengine.engine.RhinoEngine.exec(RhinoEngine.java:280)
+	at org.jaggeryjs.jaggery.core.manager.WebAppManager.execute(WebAppManager.java:298)
+	at org.jaggeryjs.jaggery.core.JaggeryServlet.doGet(JaggeryServlet.java:24)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:621)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:722)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:305)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:690)
+	at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:477)
+	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:369)
+	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:329)
+	at org.jaggeryjs.jaggery.core.JaggeryFilter.doFilter(JaggeryFilter.java:21)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:243)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:225)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:123)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:472)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:168)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:98)
+	at org.wso2.carbon.tomcat.ext.valves.CompositeValve.invoke(CompositeValve.java:172)
+	at org.wso2.carbon.tomcat.ext.valves.CarbonStuckThreadDetectionValve.invoke(CarbonStuckThreadDetectionValve.java:156)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:927)
+	at org.wso2.carbon.tomcat.ext.valves.CarbonContextCreatorValve.invoke(CarbonContextCreatorValve.java:52)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:118)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:407)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1001)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:579)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.run(NioEndpoint.java:1653)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.mozilla.javascript.WrappedException: Wrapped org.jaggeryjs.scriptengine.exceptions.ScriptException: javax.mail.internet.AddressException: Illegal address in string ``'' (/helloapp//helloworld.jag#6)
+	at org.mozilla.javascript.Context.throwAsScriptRuntimeEx(Context.java:1754)
+	at org.mozilla.javascript.MemberBox.invoke(MemberBox.java:148)
+	at org.mozilla.javascript.ScriptableObject$GetterSlot.setValue(ScriptableObject.java:270)
+	at org.mozilla.javascript.ScriptableObject.putImpl(ScriptableObject.java:2642)
+	at org.mozilla.javascript.ScriptableObject.put(ScriptableObject.java:492)
+	at org.mozilla.javascript.ScriptableObject.putProperty(ScriptableObject.java:2347)
+	at org.mozilla.javascript.ScriptRuntime.setObjectProp(ScriptRuntime.java:1598)
+	at org.mozilla.javascript.ScriptRuntime.setObjectProp(ScriptRuntime.java:1592)
+	at org.jaggeryjs.rhino.helloapp.c0._c_script_0(/helloapp//helloworld.jag:6)
+	at org.jaggeryjs.rhino.helloapp.c0.call(/helloapp//helloworld.jag)
+	at org.mozilla.javascript.ContextFactory.doTopCall(ContextFactory.java:394)
+	at org.mozilla.javascript.ScriptRuntime.doTopCall(ScriptRuntime.java:3091)
+	at org.jaggeryjs.rhino.helloapp.c0.call(/helloapp//helloworld.jag)
+	at org.jaggeryjs.rhino.helloapp.c0.exec(/helloapp//helloworld.jag)
+	at org.jaggeryjs.scriptengine.engine.RhinoEngine.execScript(RhinoEngine.java:577)
+	... 31 more
+Caused by: org.jaggeryjs.scriptengine.exceptions.ScriptException: javax.mail.internet.AddressException: Illegal address in string ``''
+	at org.jaggeryjs.hostobjects.email.SenderHostObject.jsSet_from(SenderHostObject.java:203)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.mozilla.javascript.MemberBox.invoke(MemberBox.java:126)
+	... 44 more
+Caused by: javax.mail.internet.AddressException: Illegal address in string ``''
+	at javax.mail.internet.InternetAddress.<init>(InternetAddress.java:94)
+	at org.jaggeryjs.hostobjects.email.SenderHostObject.jsSet_from(SenderHostObject.java:201)
+	... 49 more
+TID: [0] [] [2016-01-06 14:59:31,268] ERROR {org.jaggeryjs.scriptengine.engine.RhinoEngine} -  org.mozilla.javascript.WrappedException: Wrapped org.jaggeryjs.scriptengine.exceptions.ScriptException: javax.mail.internet.AddressException: Illegal address in string ``'' (/helloapp//helloworld.jag#6) {org.jaggeryjs.scriptengine.engine.RhinoEngine}
+TID: [0] [] [2016-01-06 14:59:31,269] ERROR {org.jaggeryjs.jaggery.core.manager.WebAppManager} -  org.mozilla.javascript.WrappedException: Wrapped org.jaggeryjs.scriptengine.exceptions.ScriptException: javax.mail.internet.AddressException: Illegal address in string ``'' (/helloapp//helloworld.jag#6) {org.jaggeryjs.jaggery.core.manager.WebAppManager}
+org.jaggeryjs.scriptengine.exceptions.ScriptException: org.mozilla.javascript.WrappedException: Wrapped org.jaggeryjs.scriptengine.exceptions.ScriptException: javax.mail.internet.AddressException: Illegal address in string ``'' (/helloapp//helloworld.jag#6)
+	at org.jaggeryjs.scriptengine.engine.RhinoEngine.execScript(RhinoEngine.java:582)
+	at org.jaggeryjs.scriptengine.engine.RhinoEngine.exec(RhinoEngine.java:280)
+	at org.jaggeryjs.jaggery.core.manager.WebAppManager.execute(WebAppManager.java:298)
+	at org.jaggeryjs.jaggery.core.JaggeryServlet.doGet(JaggeryServlet.java:24)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:621)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:722)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:305)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:690)
+	at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:477)
+	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:369)
+	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:329)
+	at org.jaggeryjs.jaggery.core.JaggeryFilter.doFilter(JaggeryFilter.java:21)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:243)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:225)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:123)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:472)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:168)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:98)
+	at org.wso2.carbon.tomcat.ext.valves.CompositeValve.invoke(CompositeValve.java:172)
+	at org.wso2.carbon.tomcat.ext.valves.CarbonStuckThreadDetectionValve.invoke(CarbonStuckThreadDetectionValve.java:156)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:927)
+	at org.wso2.carbon.tomcat.ext.valves.CarbonContextCreatorValve.invoke(CarbonContextCreatorValve.java:52)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:118)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:407)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1001)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:579)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.run(NioEndpoint.java:1653)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.mozilla.javascript.WrappedException: Wrapped org.jaggeryjs.scriptengine.exceptions.ScriptException: javax.mail.internet.AddressException: Illegal address in string ``'' (/helloapp//helloworld.jag#6)
+	at org.mozilla.javascript.Context.throwAsScriptRuntimeEx(Context.java:1754)
+	at org.mozilla.javascript.MemberBox.invoke(MemberBox.java:148)
+	at org.mozilla.javascript.ScriptableObject$GetterSlot.setValue(ScriptableObject.java:270)
+	at org.mozilla.javascript.ScriptableObject.putImpl(ScriptableObject.java:2642)
+	at org.mozilla.javascript.ScriptableObject.put(ScriptableObject.java:492)
+	at org.mozilla.javascript.ScriptableObject.putProperty(ScriptableObject.java:2347)
+	at org.mozilla.javascript.ScriptRuntime.setObjectProp(ScriptRuntime.java:1598)
+	at org.mozilla.javascript.ScriptRuntime.setObjectProp(ScriptRuntime.java:1592)
+	at org.jaggeryjs.rhino.helloapp.c0._c_script_0(/helloapp//helloworld.jag:6)
+	at org.jaggeryjs.rhino.helloapp.c0.call(/helloapp//helloworld.jag)
+	at org.mozilla.javascript.ContextFactory.doTopCall(ContextFactory.java:394)
+	at org.mozilla.javascript.ScriptRuntime.doTopCall(ScriptRuntime.java:3091)
+	at org.jaggeryjs.rhino.helloapp.c0.call(/helloapp//helloworld.jag)
+	at org.jaggeryjs.rhino.helloapp.c0.exec(/helloapp//helloworld.jag)
+	at org.jaggeryjs.scriptengine.engine.RhinoEngine.execScript(RhinoEngine.java:577)
+	... 31 more
+Caused by: org.jaggeryjs.scriptengine.exceptions.ScriptException: javax.mail.internet.AddressException: Illegal address in string ``''
+	at org.jaggeryjs.hostobjects.email.SenderHostObject.jsSet_from(SenderHostObject.java:203)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.mozilla.javascript.MemberBox.invoke(MemberBox.java:126)
+	... 44 more
+Caused by: javax.mail.internet.AddressException: Illegal address in string ``''
+	at javax.mail.internet.InternetAddress.<init>(InternetAddress.java:94)
+	at org.jaggeryjs.hostobjects.email.SenderHostObject.jsSet_from(SenderHostObject.java:201)
+	... 49 more
+TID: [0] [] [2016-01-06 15:15:11,382]  INFO {org.jaggeryjs.jaggery.app.mgt.TomcatJaggeryWebappsDeployer} -  Deployed webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/swagger-codegen-master].File[/home/randika/Documents/WSO2_stuff/jaggery-0.9.0-SNAPSHOT/apps/swagger-codegen-master] {org.jaggeryjs.jaggery.app.mgt.TomcatJaggeryWebappsDeployer}
+TID: [0] [] [2016-01-06 15:15:41,709]  INFO {org.wso2.carbon.webapp.mgt.WebApplication} -  Unloaded webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/swagger-codegen-master] {org.wso2.carbon.webapp.mgt.WebApplication}
+TID: [0] [] [2016-01-06 15:15:41,710]  INFO {org.wso2.carbon.webapp.mgt.TomcatGenericWebappsDeployer} -  Undeployed webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/swagger-codegen-master].File[/home/randika/Documents/WSO2_stuff/jaggery-0.9.0-SNAPSHOT/apps/swagger-codegen-master] {org.wso2.carbon.webapp.mgt.TomcatGenericWebappsDeployer}
+TID: [0] [] [2016-01-06 15:15:41,726]  INFO {org.jaggeryjs.jaggery.app.mgt.TomcatJaggeryWebappsDeployer} -  Deployed webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/swagger].File[/home/randika/Documents/WSO2_stuff/jaggery-0.9.0-SNAPSHOT/apps/swagger] {org.jaggeryjs.jaggery.app.mgt.TomcatJaggeryWebappsDeployer}
+TID: [0] [] [2016-01-06 15:36:58,101]  INFO {JAGGERY.index:jag} -  This is an INFO level log {JAGGERY.index:jag}
+TID: [0] [] [2016-01-06 15:38:04,649] ERROR {org.jaggeryjs.scriptengine.engine.RhinoEngine} -  org.mozilla.javascript.WrappedException: Wrapped java.io.IOException: Cannot run program "one.sh": error=2, No such file or directory (/swagger//index.jag#2) {org.jaggeryjs.scriptengine.engine.RhinoEngine}
+TID: [0] [] [2016-01-06 15:38:04,650] ERROR {org.jaggeryjs.jaggery.core.manager.WebAppManager} -  org.mozilla.javascript.WrappedException: Wrapped java.io.IOException: Cannot run program "one.sh": error=2, No such file or directory (/swagger//index.jag#2) {org.jaggeryjs.jaggery.core.manager.WebAppManager}
+org.jaggeryjs.scriptengine.exceptions.ScriptException: org.mozilla.javascript.WrappedException: Wrapped java.io.IOException: Cannot run program "one.sh": error=2, No such file or directory (/swagger//index.jag#2)
+	at org.jaggeryjs.scriptengine.engine.RhinoEngine.execScript(RhinoEngine.java:582)
+	at org.jaggeryjs.scriptengine.engine.RhinoEngine.exec(RhinoEngine.java:280)
+	at org.jaggeryjs.jaggery.core.manager.WebAppManager.execute(WebAppManager.java:298)
+	at org.jaggeryjs.jaggery.core.JaggeryServlet.doGet(JaggeryServlet.java:24)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:621)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:722)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:305)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:690)
+	at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:477)
+	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:369)
+	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:329)
+	at org.jaggeryjs.jaggery.core.JaggeryFilter.doFilter(JaggeryFilter.java:21)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:243)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:225)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:123)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:472)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:168)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:98)
+	at org.wso2.carbon.tomcat.ext.valves.CompositeValve.invoke(CompositeValve.java:172)
+	at org.wso2.carbon.tomcat.ext.valves.CarbonStuckThreadDetectionValve.invoke(CarbonStuckThreadDetectionValve.java:156)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:927)
+	at org.wso2.carbon.tomcat.ext.valves.CarbonContextCreatorValve.invoke(CarbonContextCreatorValve.java:52)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:118)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:407)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1001)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:579)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.run(NioEndpoint.java:1653)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.mozilla.javascript.WrappedException: Wrapped java.io.IOException: Cannot run program "one.sh": error=2, No such file or directory (/swagger//index.jag#2)
+	at org.mozilla.javascript.Context.throwAsScriptRuntimeEx(Context.java:1754)
+	at org.mozilla.javascript.MemberBox.invoke(MemberBox.java:148)
+	at org.mozilla.javascript.NativeJavaMethod.call(NativeJavaMethod.java:225)
+	at org.mozilla.javascript.optimizer.OptRuntime.callProp0(OptRuntime.java:85)
+	at org.jaggeryjs.rhino.swagger.c0._c_script_0(/swagger//index.jag:2)
+	at org.jaggeryjs.rhino.swagger.c0.call(/swagger//index.jag)
+	at org.mozilla.javascript.ContextFactory.doTopCall(ContextFactory.java:394)
+	at org.mozilla.javascript.ScriptRuntime.doTopCall(ScriptRuntime.java:3091)
+	at org.jaggeryjs.rhino.swagger.c0.call(/swagger//index.jag)
+	at org.jaggeryjs.rhino.swagger.c0.exec(/swagger//index.jag)
+	at org.jaggeryjs.scriptengine.engine.RhinoEngine.execScript(RhinoEngine.java:577)
+	... 31 more
+Caused by: java.io.IOException: Cannot run program "one.sh": error=2, No such file or directory
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1047)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.mozilla.javascript.MemberBox.invoke(MemberBox.java:126)
+	... 40 more
+Caused by: java.io.IOException: error=2, No such file or directory
+	at java.lang.UNIXProcess.forkAndExec(Native Method)
+	at java.lang.UNIXProcess.<init>(UNIXProcess.java:186)
+	at java.lang.ProcessImpl.start(ProcessImpl.java:130)
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1028)
+	... 45 more
+TID: [0] [] [2016-01-06 15:40:11,271] ERROR {org.jaggeryjs.scriptengine.engine.RhinoEngine} -  org.mozilla.javascript.EvaluatorException: Cannot convert org.jaggeryjs.hostobjects.file.FileHostObject@324ff339 to java.util.List (/swagger//index.jag#4) {org.jaggeryjs.scriptengine.engine.RhinoEngine}
+TID: [0] [] [2016-01-06 15:40:11,272] ERROR {org.jaggeryjs.jaggery.core.manager.WebAppManager} -  org.mozilla.javascript.EvaluatorException: Cannot convert org.jaggeryjs.hostobjects.file.FileHostObject@324ff339 to java.util.List (/swagger//index.jag#4) {org.jaggeryjs.jaggery.core.manager.WebAppManager}
+org.jaggeryjs.scriptengine.exceptions.ScriptException: org.mozilla.javascript.EvaluatorException: Cannot convert org.jaggeryjs.hostobjects.file.FileHostObject@324ff339 to java.util.List (/swagger//index.jag#4)
+	at org.jaggeryjs.scriptengine.engine.RhinoEngine.execScript(RhinoEngine.java:582)
+	at org.jaggeryjs.scriptengine.engine.RhinoEngine.exec(RhinoEngine.java:280)
+	at org.jaggeryjs.jaggery.core.manager.WebAppManager.execute(WebAppManager.java:298)
+	at org.jaggeryjs.jaggery.core.JaggeryServlet.doGet(JaggeryServlet.java:24)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:621)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:722)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:305)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:690)
+	at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:477)
+	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:369)
+	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:329)
+	at org.jaggeryjs.jaggery.core.JaggeryFilter.doFilter(JaggeryFilter.java:21)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:243)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:225)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:123)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:472)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:168)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:98)
+	at org.wso2.carbon.tomcat.ext.valves.CompositeValve.invoke(CompositeValve.java:172)
+	at org.wso2.carbon.tomcat.ext.valves.CarbonStuckThreadDetectionValve.invoke(CarbonStuckThreadDetectionValve.java:156)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:927)
+	at org.wso2.carbon.tomcat.ext.valves.CarbonContextCreatorValve.invoke(CarbonContextCreatorValve.java:52)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:118)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:407)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1001)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:579)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.run(NioEndpoint.java:1653)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.mozilla.javascript.EvaluatorException: Cannot convert org.jaggeryjs.hostobjects.file.FileHostObject@324ff339 to java.util.List (/swagger//index.jag#4)
+	at org.mozilla.javascript.DefaultErrorReporter.runtimeError(DefaultErrorReporter.java:77)
+	at org.mozilla.javascript.Context.reportRuntimeError(Context.java:913)
+	at org.mozilla.javascript.Context.reportRuntimeError(Context.java:969)
+	at org.mozilla.javascript.Context.reportRuntimeError2(Context.java:939)
+	at org.mozilla.javascript.NativeJavaObject.reportConversionError(NativeJavaObject.java:859)
+	at org.mozilla.javascript.NativeJavaObject.coerceTypeImpl(NativeJavaObject.java:645)
+	at org.mozilla.javascript.Context.jsToJava(Context.java:1697)
+	at org.mozilla.javascript.NativeJavaClass.constructInternal(NativeJavaClass.java:256)
+	at org.mozilla.javascript.NativeJavaClass.constructSpecific(NativeJavaClass.java:205)
+	at org.mozilla.javascript.NativeJavaClass.construct(NativeJavaClass.java:166)
+	at org.mozilla.javascript.ScriptRuntime.newObject(ScriptRuntime.java:2349)
+	at org.jaggeryjs.rhino.swagger.c0._c_script_0(/swagger//index.jag:4)
+	at org.jaggeryjs.rhino.swagger.c0.call(/swagger//index.jag)
+	at org.mozilla.javascript.ContextFactory.doTopCall(ContextFactory.java:394)
+	at org.mozilla.javascript.ScriptRuntime.doTopCall(ScriptRuntime.java:3091)
+	at org.jaggeryjs.rhino.swagger.c0.call(/swagger//index.jag)
+	at org.jaggeryjs.rhino.swagger.c0.exec(/swagger//index.jag)
+	at org.jaggeryjs.scriptengine.engine.RhinoEngine.execScript(RhinoEngine.java:577)
+	... 31 more
+TID: [0] [] [2016-01-06 15:41:55,670] ERROR {org.jaggeryjs.scriptengine.engine.RhinoEngine} -  org.jaggeryjs.scriptengine.exceptions.ScriptException: org.mozilla.javascript.EvaluatorException: Compilation produced 2 syntax errors. (/swagger//index.jag#1) {org.jaggeryjs.scriptengine.engine.RhinoEngine}
+TID: [0] [] [2016-01-06 15:41:55,670] ERROR {org.jaggeryjs.jaggery.core.manager.WebAppManager} -  org.jaggeryjs.scriptengine.exceptions.ScriptException: org.mozilla.javascript.EvaluatorException: Compilation produced 2 syntax errors. (/swagger//index.jag#1) {org.jaggeryjs.jaggery.core.manager.WebAppManager}
+org.jaggeryjs.scriptengine.exceptions.ScriptException: org.jaggeryjs.scriptengine.exceptions.ScriptException: org.mozilla.javascript.EvaluatorException: Compilation produced 2 syntax errors. (/swagger//index.jag#1)
+	at org.jaggeryjs.scriptengine.engine.RhinoEngine.execScript(RhinoEngine.java:582)
+	at org.jaggeryjs.scriptengine.engine.RhinoEngine.exec(RhinoEngine.java:280)
+	at org.jaggeryjs.jaggery.core.manager.WebAppManager.execute(WebAppManager.java:298)
+	at org.jaggeryjs.jaggery.core.JaggeryServlet.doGet(JaggeryServlet.java:24)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:621)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:722)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:305)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:690)
+	at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:477)
+	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:369)
+	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:329)
+	at org.jaggeryjs.jaggery.core.JaggeryFilter.doFilter(JaggeryFilter.java:21)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:243)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:225)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:123)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:472)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:168)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:98)
+	at org.wso2.carbon.tomcat.ext.valves.CompositeValve.invoke(CompositeValve.java:172)
+	at org.wso2.carbon.tomcat.ext.valves.CarbonStuckThreadDetectionValve.invoke(CarbonStuckThreadDetectionValve.java:156)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:927)
+	at org.wso2.carbon.tomcat.ext.valves.CarbonContextCreatorValve.invoke(CarbonContextCreatorValve.java:52)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:118)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:407)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1001)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:579)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.run(NioEndpoint.java:1653)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.jaggeryjs.scriptengine.exceptions.ScriptException: org.mozilla.javascript.EvaluatorException: Compilation produced 2 syntax errors. (/swagger//index.jag#1)
+	at org.jaggeryjs.scriptengine.cache.CacheManager.cacheScript(CacheManager.java:91)
+	at org.jaggeryjs.scriptengine.cache.CacheManager.getScriptObject(CacheManager.java:102)
+	at org.jaggeryjs.scriptengine.engine.RhinoEngine.execScript(RhinoEngine.java:572)
+	... 31 more
+Caused by: org.mozilla.javascript.EvaluatorException: Compilation produced 2 syntax errors. (/swagger//index.jag#1)
+	at org.mozilla.javascript.tools.ToolErrorReporter.runtimeError(ToolErrorReporter.java:111)
+	at org.mozilla.javascript.Parser.parse(Parser.java:569)
+	at org.mozilla.javascript.Parser.parse(Parser.java:478)
+	at org.mozilla.javascript.optimizer.ClassCompiler.compileToClassFiles(ClassCompiler.java:134)
+	at org.jaggeryjs.scriptengine.cache.CacheManager.cacheScript(CacheManager.java:84)
+	... 33 more
+TID: [0] [] [2016-01-06 15:43:02,319] ERROR {org.jaggeryjs.scriptengine.engine.RhinoEngine} -  org.jaggeryjs.scriptengine.exceptions.ScriptException: org.mozilla.javascript.EvaluatorException: Compilation produced 2 syntax errors. (/swagger//index.jag#1) {org.jaggeryjs.scriptengine.engine.RhinoEngine}
+TID: [0] [] [2016-01-06 15:43:02,320] ERROR {org.jaggeryjs.jaggery.core.manager.WebAppManager} -  org.jaggeryjs.scriptengine.exceptions.ScriptException: org.mozilla.javascript.EvaluatorException: Compilation produced 2 syntax errors. (/swagger//index.jag#1) {org.jaggeryjs.jaggery.core.manager.WebAppManager}
+org.jaggeryjs.scriptengine.exceptions.ScriptException: org.jaggeryjs.scriptengine.exceptions.ScriptException: org.mozilla.javascript.EvaluatorException: Compilation produced 2 syntax errors. (/swagger//index.jag#1)
+	at org.jaggeryjs.scriptengine.engine.RhinoEngine.execScript(RhinoEngine.java:582)
+	at org.jaggeryjs.scriptengine.engine.RhinoEngine.exec(RhinoEngine.java:280)
+	at org.jaggeryjs.jaggery.core.manager.WebAppManager.execute(WebAppManager.java:298)
+	at org.jaggeryjs.jaggery.core.JaggeryServlet.doGet(JaggeryServlet.java:24)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:621)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:722)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:305)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:690)
+	at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:477)
+	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:369)
+	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:329)
+	at org.jaggeryjs.jaggery.core.JaggeryFilter.doFilter(JaggeryFilter.java:21)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:243)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:225)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:123)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:472)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:168)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:98)
+	at org.wso2.carbon.tomcat.ext.valves.CompositeValve.invoke(CompositeValve.java:172)
+	at org.wso2.carbon.tomcat.ext.valves.CarbonStuckThreadDetectionValve.invoke(CarbonStuckThreadDetectionValve.java:156)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:927)
+	at org.wso2.carbon.tomcat.ext.valves.CarbonContextCreatorValve.invoke(CarbonContextCreatorValve.java:52)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:118)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:407)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1001)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:579)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.run(NioEndpoint.java:1653)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.jaggeryjs.scriptengine.exceptions.ScriptException: org.mozilla.javascript.EvaluatorException: Compilation produced 2 syntax errors. (/swagger//index.jag#1)
+	at org.jaggeryjs.scriptengine.cache.CacheManager.cacheScript(CacheManager.java:91)
+	at org.jaggeryjs.scriptengine.engine.RhinoEngine.execScript(RhinoEngine.java:574)
+	... 31 more
+Caused by: org.mozilla.javascript.EvaluatorException: Compilation produced 2 syntax errors. (/swagger//index.jag#1)
+	at org.mozilla.javascript.tools.ToolErrorReporter.runtimeError(ToolErrorReporter.java:111)
+	at org.mozilla.javascript.Parser.parse(Parser.java:569)
+	at org.mozilla.javascript.Parser.parse(Parser.java:478)
+	at org.mozilla.javascript.optimizer.ClassCompiler.compileToClassFiles(ClassCompiler.java:134)
+	at org.jaggeryjs.scriptengine.cache.CacheManager.cacheScript(CacheManager.java:84)
+	... 32 more
+TID: [0] [] [2016-01-06 15:43:04,117] ERROR {org.jaggeryjs.scriptengine.engine.RhinoEngine} -  org.jaggeryjs.scriptengine.exceptions.ScriptException: org.mozilla.javascript.EvaluatorException: Compilation produced 2 syntax errors. (/swagger//index.jag#1) {org.jaggeryjs.scriptengine.engine.RhinoEngine}
+TID: [0] [] [2016-01-06 15:43:04,118] ERROR {org.jaggeryjs.jaggery.core.manager.WebAppManager} -  org.jaggeryjs.scriptengine.exceptions.ScriptException: org.mozilla.javascript.EvaluatorException: Compilation produced 2 syntax errors. (/swagger//index.jag#1) {org.jaggeryjs.jaggery.core.manager.WebAppManager}
+org.jaggeryjs.scriptengine.exceptions.ScriptException: org.jaggeryjs.scriptengine.exceptions.ScriptException: org.mozilla.javascript.EvaluatorException: Compilation produced 2 syntax errors. (/swagger//index.jag#1)
+	at org.jaggeryjs.scriptengine.engine.RhinoEngine.execScript(RhinoEngine.java:582)
+	at org.jaggeryjs.scriptengine.engine.RhinoEngine.exec(RhinoEngine.java:280)
+	at org.jaggeryjs.jaggery.core.manager.WebAppManager.execute(WebAppManager.java:298)
+	at org.jaggeryjs.jaggery.core.JaggeryServlet.doGet(JaggeryServlet.java:24)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:621)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:722)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:305)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:690)
+	at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:477)
+	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:369)
+	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:329)
+	at org.jaggeryjs.jaggery.core.JaggeryFilter.doFilter(JaggeryFilter.java:21)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:243)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:225)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:123)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:472)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:168)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:98)
+	at org.wso2.carbon.tomcat.ext.valves.CompositeValve.invoke(CompositeValve.java:172)
+	at org.wso2.carbon.tomcat.ext.valves.CarbonStuckThreadDetectionValve.invoke(CarbonStuckThreadDetectionValve.java:156)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:927)
+	at org.wso2.carbon.tomcat.ext.valves.CarbonContextCreatorValve.invoke(CarbonContextCreatorValve.java:52)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:118)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:407)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1001)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:579)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.run(NioEndpoint.java:1653)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.jaggeryjs.scriptengine.exceptions.ScriptException: org.mozilla.javascript.EvaluatorException: Compilation produced 2 syntax errors. (/swagger//index.jag#1)
+	at org.jaggeryjs.scriptengine.cache.CacheManager.cacheScript(CacheManager.java:91)
+	at org.jaggeryjs.scriptengine.engine.RhinoEngine.execScript(RhinoEngine.java:574)
+	... 31 more
+Caused by: org.mozilla.javascript.EvaluatorException: Compilation produced 2 syntax errors. (/swagger//index.jag#1)
+	at org.mozilla.javascript.tools.ToolErrorReporter.runtimeError(ToolErrorReporter.java:111)
+	at org.mozilla.javascript.Parser.parse(Parser.java:569)
+	at org.mozilla.javascript.Parser.parse(Parser.java:478)
+	at org.mozilla.javascript.optimizer.ClassCompiler.compileToClassFiles(ClassCompiler.java:134)
+	at org.jaggeryjs.scriptengine.cache.CacheManager.cacheScript(CacheManager.java:84)
+	... 32 more
+TID: [0] [] [2016-01-06 17:05:38,563] ERROR {org.jaggeryjs.scriptengine.engine.RhinoEngine} -  org.mozilla.javascript.EcmaError: ReferenceError: "shExecuter" is not defined. (/swagger//index.jag#3) {org.jaggeryjs.scriptengine.engine.RhinoEngine}
+TID: [0] [] [2016-01-06 17:05:38,563] ERROR {org.jaggeryjs.jaggery.core.manager.WebAppManager} -  org.mozilla.javascript.EcmaError: ReferenceError: "shExecuter" is not defined. (/swagger//index.jag#3) {org.jaggeryjs.jaggery.core.manager.WebAppManager}
+org.jaggeryjs.scriptengine.exceptions.ScriptException: org.mozilla.javascript.EcmaError: ReferenceError: "shExecuter" is not defined. (/swagger//index.jag#3)
+	at org.jaggeryjs.scriptengine.engine.RhinoEngine.execScript(RhinoEngine.java:582)
+	at org.jaggeryjs.scriptengine.engine.RhinoEngine.exec(RhinoEngine.java:280)
+	at org.jaggeryjs.jaggery.core.manager.WebAppManager.execute(WebAppManager.java:298)
+	at org.jaggeryjs.jaggery.core.JaggeryServlet.doGet(JaggeryServlet.java:24)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:621)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:722)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:305)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:690)
+	at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:477)
+	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:369)
+	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:329)
+	at org.jaggeryjs.jaggery.core.JaggeryFilter.doFilter(JaggeryFilter.java:21)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:243)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:225)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:123)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:472)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:168)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:98)
+	at org.wso2.carbon.tomcat.ext.valves.CompositeValve.invoke(CompositeValve.java:172)
+	at org.wso2.carbon.tomcat.ext.valves.CarbonStuckThreadDetectionValve.invoke(CarbonStuckThreadDetectionValve.java:156)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:927)
+	at org.wso2.carbon.tomcat.ext.valves.CarbonContextCreatorValve.invoke(CarbonContextCreatorValve.java:52)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:118)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:407)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1001)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:579)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.run(NioEndpoint.java:1653)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.mozilla.javascript.EcmaError: ReferenceError: "shExecuter" is not defined. (/swagger//index.jag#3)
+	at org.mozilla.javascript.ScriptRuntime.constructError(ScriptRuntime.java:3687)
+	at org.mozilla.javascript.ScriptRuntime.constructError(ScriptRuntime.java:3665)
+	at org.mozilla.javascript.ScriptRuntime.notFoundError(ScriptRuntime.java:3750)
+	at org.mozilla.javascript.ScriptRuntime.name(ScriptRuntime.java:1728)
+	at org.jaggeryjs.rhino.swagger.c2._c_script_0(/swagger//index.jag:3)
+	at org.jaggeryjs.rhino.swagger.c2.call(/swagger//index.jag)
+	at org.mozilla.javascript.ContextFactory.doTopCall(ContextFactory.java:394)
+	at org.mozilla.javascript.ScriptRuntime.doTopCall(ScriptRuntime.java:3091)
+	at org.jaggeryjs.rhino.swagger.c2.call(/swagger//index.jag)
+	at org.jaggeryjs.rhino.swagger.c2.exec(/swagger//index.jag)
+	at org.jaggeryjs.scriptengine.engine.RhinoEngine.execScript(RhinoEngine.java:577)
+	... 31 more
+TID: [0] [] [2016-01-06 17:06:21,637] ERROR {org.jaggeryjs.scriptengine.engine.RhinoEngine} -  org.mozilla.javascript.EcmaError: ReferenceError: "shExecuter" is not defined. (/swagger//index.jag#3) {org.jaggeryjs.scriptengine.engine.RhinoEngine}
+TID: [0] [] [2016-01-06 17:06:21,637] ERROR {org.jaggeryjs.jaggery.core.manager.WebAppManager} -  org.mozilla.javascript.EcmaError: ReferenceError: "shExecuter" is not defined. (/swagger//index.jag#3) {org.jaggeryjs.jaggery.core.manager.WebAppManager}
+org.jaggeryjs.scriptengine.exceptions.ScriptException: org.mozilla.javascript.EcmaError: ReferenceError: "shExecuter" is not defined. (/swagger//index.jag#3)
+	at org.jaggeryjs.scriptengine.engine.RhinoEngine.execScript(RhinoEngine.java:582)
+	at org.jaggeryjs.scriptengine.engine.RhinoEngine.exec(RhinoEngine.java:280)
+	at org.jaggeryjs.jaggery.core.manager.WebAppManager.execute(WebAppManager.java:298)
+	at org.jaggeryjs.jaggery.core.JaggeryServlet.doGet(JaggeryServlet.java:24)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:621)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:722)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:305)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:690)
+	at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:477)
+	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:369)
+	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:329)
+	at org.jaggeryjs.jaggery.core.JaggeryFilter.doFilter(JaggeryFilter.java:21)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:243)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:225)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:123)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:472)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:168)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:98)
+	at org.wso2.carbon.tomcat.ext.valves.CompositeValve.invoke(CompositeValve.java:172)
+	at org.wso2.carbon.tomcat.ext.valves.CarbonStuckThreadDetectionValve.invoke(CarbonStuckThreadDetectionValve.java:156)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:927)
+	at org.wso2.carbon.tomcat.ext.valves.CarbonContextCreatorValve.invoke(CarbonContextCreatorValve.java:52)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:118)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:407)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1001)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:579)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.run(NioEndpoint.java:1653)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.mozilla.javascript.EcmaError: ReferenceError: "shExecuter" is not defined. (/swagger//index.jag#3)
+	at org.mozilla.javascript.ScriptRuntime.constructError(ScriptRuntime.java:3687)
+	at org.mozilla.javascript.ScriptRuntime.constructError(ScriptRuntime.java:3665)
+	at org.mozilla.javascript.ScriptRuntime.notFoundError(ScriptRuntime.java:3750)
+	at org.mozilla.javascript.ScriptRuntime.name(ScriptRuntime.java:1728)
+	at org.jaggeryjs.rhino.swagger.c2._c_script_0(/swagger//index.jag:3)
+	at org.jaggeryjs.rhino.swagger.c2.call(/swagger//index.jag)
+	at org.mozilla.javascript.ContextFactory.doTopCall(ContextFactory.java:394)
+	at org.mozilla.javascript.ScriptRuntime.doTopCall(ScriptRuntime.java:3091)
+	at org.jaggeryjs.rhino.swagger.c2.call(/swagger//index.jag)
+	at org.jaggeryjs.rhino.swagger.c2.exec(/swagger//index.jag)
+	at org.jaggeryjs.scriptengine.engine.RhinoEngine.execScript(RhinoEngine.java:577)
+	... 31 more
+TID: [0] [] [2016-01-06 17:06:24,177] ERROR {org.jaggeryjs.scriptengine.engine.RhinoEngine} -  org.mozilla.javascript.EcmaError: ReferenceError: "shExecuter" is not defined. (/swagger//index.jag#3) {org.jaggeryjs.scriptengine.engine.RhinoEngine}
+TID: [0] [] [2016-01-06 17:06:24,178] ERROR {org.jaggeryjs.jaggery.core.manager.WebAppManager} -  org.mozilla.javascript.EcmaError: ReferenceError: "shExecuter" is not defined. (/swagger//index.jag#3) {org.jaggeryjs.jaggery.core.manager.WebAppManager}
+org.jaggeryjs.scriptengine.exceptions.ScriptException: org.mozilla.javascript.EcmaError: ReferenceError: "shExecuter" is not defined. (/swagger//index.jag#3)
+	at org.jaggeryjs.scriptengine.engine.RhinoEngine.execScript(RhinoEngine.java:582)
+	at org.jaggeryjs.scriptengine.engine.RhinoEngine.exec(RhinoEngine.java:280)
+	at org.jaggeryjs.jaggery.core.manager.WebAppManager.execute(WebAppManager.java:298)
+	at org.jaggeryjs.jaggery.core.JaggeryServlet.doGet(JaggeryServlet.java:24)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:621)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:722)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:305)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:690)
+	at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:477)
+	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:369)
+	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:329)
+	at org.jaggeryjs.jaggery.core.JaggeryFilter.doFilter(JaggeryFilter.java:21)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:243)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:225)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:123)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:472)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:168)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:98)
+	at org.wso2.carbon.tomcat.ext.valves.CompositeValve.invoke(CompositeValve.java:172)
+	at org.wso2.carbon.tomcat.ext.valves.CarbonStuckThreadDetectionValve.invoke(CarbonStuckThreadDetectionValve.java:156)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:927)
+	at org.wso2.carbon.tomcat.ext.valves.CarbonContextCreatorValve.invoke(CarbonContextCreatorValve.java:52)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:118)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:407)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1001)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:579)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.run(NioEndpoint.java:1653)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.mozilla.javascript.EcmaError: ReferenceError: "shExecuter" is not defined. (/swagger//index.jag#3)
+	at org.mozilla.javascript.ScriptRuntime.constructError(ScriptRuntime.java:3687)
+	at org.mozilla.javascript.ScriptRuntime.constructError(ScriptRuntime.java:3665)
+	at org.mozilla.javascript.ScriptRuntime.notFoundError(ScriptRuntime.java:3750)
+	at org.mozilla.javascript.ScriptRuntime.name(ScriptRuntime.java:1728)
+	at org.jaggeryjs.rhino.swagger.c2._c_script_0(/swagger//index.jag:3)
+	at org.jaggeryjs.rhino.swagger.c2.call(/swagger//index.jag)
+	at org.mozilla.javascript.ContextFactory.doTopCall(ContextFactory.java:394)
+	at org.mozilla.javascript.ScriptRuntime.doTopCall(ScriptRuntime.java:3091)
+	at org.jaggeryjs.rhino.swagger.c2.call(/swagger//index.jag)
+	at org.jaggeryjs.rhino.swagger.c2.exec(/swagger//index.jag)
+	at org.jaggeryjs.scriptengine.engine.RhinoEngine.execScript(RhinoEngine.java:577)
+	... 31 more
+TID: [0] [] [2016-01-06 17:08:52,621] ERROR {org.jaggeryjs.scriptengine.engine.RhinoEngine} -  org.mozilla.javascript.EcmaError: ReferenceError: "shExecuter" is not defined. (/swagger//index.jag#3) {org.jaggeryjs.scriptengine.engine.RhinoEngine}
+TID: [0] [] [2016-01-06 17:08:52,621] ERROR {org.jaggeryjs.jaggery.core.manager.WebAppManager} -  org.mozilla.javascript.EcmaError: ReferenceError: "shExecuter" is not defined. (/swagger//index.jag#3) {org.jaggeryjs.jaggery.core.manager.WebAppManager}
+org.jaggeryjs.scriptengine.exceptions.ScriptException: org.mozilla.javascript.EcmaError: ReferenceError: "shExecuter" is not defined. (/swagger//index.jag#3)
+	at org.jaggeryjs.scriptengine.engine.RhinoEngine.execScript(RhinoEngine.java:582)
+	at org.jaggeryjs.scriptengine.engine.RhinoEngine.exec(RhinoEngine.java:280)
+	at org.jaggeryjs.jaggery.core.manager.WebAppManager.execute(WebAppManager.java:298)
+	at org.jaggeryjs.jaggery.core.JaggeryServlet.doGet(JaggeryServlet.java:24)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:621)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:722)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:305)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:690)
+	at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:477)
+	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:369)
+	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:329)
+	at org.jaggeryjs.jaggery.core.JaggeryFilter.doFilter(JaggeryFilter.java:21)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:243)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:225)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:123)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:472)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:168)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:98)
+	at org.wso2.carbon.tomcat.ext.valves.CompositeValve.invoke(CompositeValve.java:172)
+	at org.wso2.carbon.tomcat.ext.valves.CarbonStuckThreadDetectionValve.invoke(CarbonStuckThreadDetectionValve.java:156)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:927)
+	at org.wso2.carbon.tomcat.ext.valves.CarbonContextCreatorValve.invoke(CarbonContextCreatorValve.java:52)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:118)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:407)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1001)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:579)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.run(NioEndpoint.java:1653)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.mozilla.javascript.EcmaError: ReferenceError: "shExecuter" is not defined. (/swagger//index.jag#3)
+	at org.mozilla.javascript.ScriptRuntime.constructError(ScriptRuntime.java:3687)
+	at org.mozilla.javascript.ScriptRuntime.constructError(ScriptRuntime.java:3665)
+	at org.mozilla.javascript.ScriptRuntime.notFoundError(ScriptRuntime.java:3750)
+	at org.mozilla.javascript.ScriptRuntime.name(ScriptRuntime.java:1728)
+	at org.jaggeryjs.rhino.swagger.c2._c_script_0(/swagger//index.jag:3)
+	at org.jaggeryjs.rhino.swagger.c2.call(/swagger//index.jag)
+	at org.mozilla.javascript.ContextFactory.doTopCall(ContextFactory.java:394)
+	at org.mozilla.javascript.ScriptRuntime.doTopCall(ScriptRuntime.java:3091)
+	at org.jaggeryjs.rhino.swagger.c2.call(/swagger//index.jag)
+	at org.jaggeryjs.rhino.swagger.c2.exec(/swagger//index.jag)
+	at org.jaggeryjs.scriptengine.engine.RhinoEngine.execScript(RhinoEngine.java:577)
+	... 31 more
+TID: [0] [] [2016-01-06 17:10:06,571] ERROR {org.jaggeryjs.scriptengine.engine.RhinoEngine} -  org.mozilla.javascript.EcmaError: TypeError: [JavaPackage org.wso2.jaggery.execute] is not a function, it is object. (/swagger//index.jag#4) {org.jaggeryjs.scriptengine.engine.RhinoEngine}
+TID: [0] [] [2016-01-06 17:10:06,572] ERROR {org.jaggeryjs.jaggery.core.manager.WebAppManager} -  org.mozilla.javascript.EcmaError: TypeError: [JavaPackage org.wso2.jaggery.execute] is not a function, it is object. (/swagger//index.jag#4) {org.jaggeryjs.jaggery.core.manager.WebAppManager}
+org.jaggeryjs.scriptengine.exceptions.ScriptException: org.mozilla.javascript.EcmaError: TypeError: [JavaPackage org.wso2.jaggery.execute] is not a function, it is object. (/swagger//index.jag#4)
+	at org.jaggeryjs.scriptengine.engine.RhinoEngine.execScript(RhinoEngine.java:582)
+	at org.jaggeryjs.scriptengine.engine.RhinoEngine.exec(RhinoEngine.java:280)
+	at org.jaggeryjs.jaggery.core.manager.WebAppManager.execute(WebAppManager.java:298)
+	at org.jaggeryjs.jaggery.core.JaggeryServlet.doGet(JaggeryServlet.java:24)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:621)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:722)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:305)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:690)
+	at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:477)
+	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:369)
+	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:329)
+	at org.jaggeryjs.jaggery.core.JaggeryFilter.doFilter(JaggeryFilter.java:21)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:243)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:225)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:123)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:472)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:168)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:98)
+	at org.wso2.carbon.tomcat.ext.valves.CompositeValve.invoke(CompositeValve.java:172)
+	at org.wso2.carbon.tomcat.ext.valves.CarbonStuckThreadDetectionValve.invoke(CarbonStuckThreadDetectionValve.java:156)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:927)
+	at org.wso2.carbon.tomcat.ext.valves.CarbonContextCreatorValve.invoke(CarbonContextCreatorValve.java:52)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:118)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:407)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1001)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:579)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.run(NioEndpoint.java:1653)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.mozilla.javascript.EcmaError: TypeError: [JavaPackage org.wso2.jaggery.execute] is not a function, it is object. (/swagger//index.jag#4)
+	at org.mozilla.javascript.ScriptRuntime.constructError(ScriptRuntime.java:3687)
+	at org.mozilla.javascript.ScriptRuntime.constructError(ScriptRuntime.java:3665)
+	at org.mozilla.javascript.ScriptRuntime.typeError(ScriptRuntime.java:3693)
+	at org.mozilla.javascript.ScriptRuntime.typeError2(ScriptRuntime.java:3712)
+	at org.mozilla.javascript.ScriptRuntime.notFunctionError(ScriptRuntime.java:3767)
+	at org.mozilla.javascript.ScriptRuntime.notFunctionError(ScriptRuntime.java:3755)
+	at org.mozilla.javascript.ScriptRuntime.newObject(ScriptRuntime.java:2346)
+	at org.jaggeryjs.rhino.swagger.c2._c_script_0(/swagger//index.jag:4)
+	at org.jaggeryjs.rhino.swagger.c2.call(/swagger//index.jag)
+	at org.mozilla.javascript.ContextFactory.doTopCall(ContextFactory.java:394)
+	at org.mozilla.javascript.ScriptRuntime.doTopCall(ScriptRuntime.java:3091)
+	at org.jaggeryjs.rhino.swagger.c2.call(/swagger//index.jag)
+	at org.jaggeryjs.rhino.swagger.c2.exec(/swagger//index.jag)
+	at org.jaggeryjs.scriptengine.engine.RhinoEngine.execScript(RhinoEngine.java:577)
+	... 31 more
+TID: [0] [] [2016-01-06 17:10:43,686] ERROR {org.jaggeryjs.scriptengine.engine.RhinoEngine} -  org.mozilla.javascript.EcmaError: TypeError: [JavaPackage org.wso2.jaggery] is not a function, it is object. (/swagger//index.jag#4) {org.jaggeryjs.scriptengine.engine.RhinoEngine}
+TID: [0] [] [2016-01-06 17:10:43,687] ERROR {org.jaggeryjs.jaggery.core.manager.WebAppManager} -  org.mozilla.javascript.EcmaError: TypeError: [JavaPackage org.wso2.jaggery] is not a function, it is object. (/swagger//index.jag#4) {org.jaggeryjs.jaggery.core.manager.WebAppManager}
+org.jaggeryjs.scriptengine.exceptions.ScriptException: org.mozilla.javascript.EcmaError: TypeError: [JavaPackage org.wso2.jaggery] is not a function, it is object. (/swagger//index.jag#4)
+	at org.jaggeryjs.scriptengine.engine.RhinoEngine.execScript(RhinoEngine.java:582)
+	at org.jaggeryjs.scriptengine.engine.RhinoEngine.exec(RhinoEngine.java:280)
+	at org.jaggeryjs.jaggery.core.manager.WebAppManager.execute(WebAppManager.java:298)
+	at org.jaggeryjs.jaggery.core.JaggeryServlet.doGet(JaggeryServlet.java:24)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:621)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:722)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:305)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:690)
+	at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:477)
+	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:369)
+	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:329)
+	at org.jaggeryjs.jaggery.core.JaggeryFilter.doFilter(JaggeryFilter.java:21)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:243)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:225)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:123)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:472)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:168)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:98)
+	at org.wso2.carbon.tomcat.ext.valves.CompositeValve.invoke(CompositeValve.java:172)
+	at org.wso2.carbon.tomcat.ext.valves.CarbonStuckThreadDetectionValve.invoke(CarbonStuckThreadDetectionValve.java:156)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:927)
+	at org.wso2.carbon.tomcat.ext.valves.CarbonContextCreatorValve.invoke(CarbonContextCreatorValve.java:52)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:118)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:407)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1001)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:579)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.run(NioEndpoint.java:1653)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.mozilla.javascript.EcmaError: TypeError: [JavaPackage org.wso2.jaggery] is not a function, it is object. (/swagger//index.jag#4)
+	at org.mozilla.javascript.ScriptRuntime.constructError(ScriptRuntime.java:3687)
+	at org.mozilla.javascript.ScriptRuntime.constructError(ScriptRuntime.java:3665)
+	at org.mozilla.javascript.ScriptRuntime.typeError(ScriptRuntime.java:3693)
+	at org.mozilla.javascript.ScriptRuntime.typeError2(ScriptRuntime.java:3712)
+	at org.mozilla.javascript.ScriptRuntime.notFunctionError(ScriptRuntime.java:3767)
+	at org.mozilla.javascript.ScriptRuntime.notFunctionError(ScriptRuntime.java:3755)
+	at org.mozilla.javascript.ScriptRuntime.newObject(ScriptRuntime.java:2346)
+	at org.jaggeryjs.rhino.swagger.c2._c_script_0(/swagger//index.jag:4)
+	at org.jaggeryjs.rhino.swagger.c2.call(/swagger//index.jag)
+	at org.mozilla.javascript.ContextFactory.doTopCall(ContextFactory.java:394)
+	at org.mozilla.javascript.ScriptRuntime.doTopCall(ScriptRuntime.java:3091)
+	at org.jaggeryjs.rhino.swagger.c2.call(/swagger//index.jag)
+	at org.jaggeryjs.rhino.swagger.c2.exec(/swagger//index.jag)
+	at org.jaggeryjs.scriptengine.engine.RhinoEngine.execScript(RhinoEngine.java:577)
+	... 31 more
+TID: [0] [] [2016-01-06 17:12:34,683] ERROR {org.jaggeryjs.scriptengine.engine.RhinoEngine} -  org.mozilla.javascript.EcmaError: TypeError: [JavaPackage org.wso2.jaggery.execute] is not a function, it is object. (/swagger//index.jag#4) {org.jaggeryjs.scriptengine.engine.RhinoEngine}
+TID: [0] [] [2016-01-06 17:12:34,683] ERROR {org.jaggeryjs.jaggery.core.manager.WebAppManager} -  org.mozilla.javascript.EcmaError: TypeError: [JavaPackage org.wso2.jaggery.execute] is not a function, it is object. (/swagger//index.jag#4) {org.jaggeryjs.jaggery.core.manager.WebAppManager}
+org.jaggeryjs.scriptengine.exceptions.ScriptException: org.mozilla.javascript.EcmaError: TypeError: [JavaPackage org.wso2.jaggery.execute] is not a function, it is object. (/swagger//index.jag#4)
+	at org.jaggeryjs.scriptengine.engine.RhinoEngine.execScript(RhinoEngine.java:582)
+	at org.jaggeryjs.scriptengine.engine.RhinoEngine.exec(RhinoEngine.java:280)
+	at org.jaggeryjs.jaggery.core.manager.WebAppManager.execute(WebAppManager.java:298)
+	at org.jaggeryjs.jaggery.core.JaggeryServlet.doGet(JaggeryServlet.java:24)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:621)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:722)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:305)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:690)
+	at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:477)
+	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:369)
+	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:329)
+	at org.jaggeryjs.jaggery.core.JaggeryFilter.doFilter(JaggeryFilter.java:21)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:243)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:225)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:123)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:472)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:168)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:98)
+	at org.wso2.carbon.tomcat.ext.valves.CompositeValve.invoke(CompositeValve.java:172)
+	at org.wso2.carbon.tomcat.ext.valves.CarbonStuckThreadDetectionValve.invoke(CarbonStuckThreadDetectionValve.java:156)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:927)
+	at org.wso2.carbon.tomcat.ext.valves.CarbonContextCreatorValve.invoke(CarbonContextCreatorValve.java:52)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:118)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:407)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1001)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:579)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.run(NioEndpoint.java:1653)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.mozilla.javascript.EcmaError: TypeError: [JavaPackage org.wso2.jaggery.execute] is not a function, it is object. (/swagger//index.jag#4)
+	at org.mozilla.javascript.ScriptRuntime.constructError(ScriptRuntime.java:3687)
+	at org.mozilla.javascript.ScriptRuntime.constructError(ScriptRuntime.java:3665)
+	at org.mozilla.javascript.ScriptRuntime.typeError(ScriptRuntime.java:3693)
+	at org.mozilla.javascript.ScriptRuntime.typeError2(ScriptRuntime.java:3712)
+	at org.mozilla.javascript.ScriptRuntime.notFunctionError(ScriptRuntime.java:3767)
+	at org.mozilla.javascript.ScriptRuntime.notFunctionError(ScriptRuntime.java:3755)
+	at org.mozilla.javascript.ScriptRuntime.newObject(ScriptRuntime.java:2346)
+	at org.jaggeryjs.rhino.swagger.c2._c_script_0(/swagger//index.jag:4)
+	at org.jaggeryjs.rhino.swagger.c2.call(/swagger//index.jag)
+	at org.mozilla.javascript.ContextFactory.doTopCall(ContextFactory.java:394)
+	at org.mozilla.javascript.ScriptRuntime.doTopCall(ScriptRuntime.java:3091)
+	at org.jaggeryjs.rhino.swagger.c2.call(/swagger//index.jag)
+	at org.jaggeryjs.rhino.swagger.c2.exec(/swagger//index.jag)
+	at org.jaggeryjs.scriptengine.engine.RhinoEngine.execScript(RhinoEngine.java:577)
+	... 31 more
+TID: [0] [] [2016-01-06 17:15:01,192] ERROR {org.jaggeryjs.scriptengine.engine.RhinoEngine} -  org.mozilla.javascript.EcmaError: TypeError: [JavaPackage org.wso2.jaggery.test] is not a function, it is object. (/swagger//index.jag#4) {org.jaggeryjs.scriptengine.engine.RhinoEngine}
+TID: [0] [] [2016-01-06 17:15:01,193] ERROR {org.jaggeryjs.jaggery.core.manager.WebAppManager} -  org.mozilla.javascript.EcmaError: TypeError: [JavaPackage org.wso2.jaggery.test] is not a function, it is object. (/swagger//index.jag#4) {org.jaggeryjs.jaggery.core.manager.WebAppManager}
+org.jaggeryjs.scriptengine.exceptions.ScriptException: org.mozilla.javascript.EcmaError: TypeError: [JavaPackage org.wso2.jaggery.test] is not a function, it is object. (/swagger//index.jag#4)
+	at org.jaggeryjs.scriptengine.engine.RhinoEngine.execScript(RhinoEngine.java:582)
+	at org.jaggeryjs.scriptengine.engine.RhinoEngine.exec(RhinoEngine.java:280)
+	at org.jaggeryjs.jaggery.core.manager.WebAppManager.execute(WebAppManager.java:298)
+	at org.jaggeryjs.jaggery.core.JaggeryServlet.doGet(JaggeryServlet.java:24)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:621)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:722)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:305)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:690)
+	at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:477)
+	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:369)
+	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:329)
+	at org.jaggeryjs.jaggery.core.JaggeryFilter.doFilter(JaggeryFilter.java:21)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:243)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:225)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:123)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:472)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:168)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:98)
+	at org.wso2.carbon.tomcat.ext.valves.CompositeValve.invoke(CompositeValve.java:172)
+	at org.wso2.carbon.tomcat.ext.valves.CarbonStuckThreadDetectionValve.invoke(CarbonStuckThreadDetectionValve.java:156)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:927)
+	at org.wso2.carbon.tomcat.ext.valves.CarbonContextCreatorValve.invoke(CarbonContextCreatorValve.java:52)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:118)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:407)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1001)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:579)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.run(NioEndpoint.java:1653)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.mozilla.javascript.EcmaError: TypeError: [JavaPackage org.wso2.jaggery.test] is not a function, it is object. (/swagger//index.jag#4)
+	at org.mozilla.javascript.ScriptRuntime.constructError(ScriptRuntime.java:3687)
+	at org.mozilla.javascript.ScriptRuntime.constructError(ScriptRuntime.java:3665)
+	at org.mozilla.javascript.ScriptRuntime.typeError(ScriptRuntime.java:3693)
+	at org.mozilla.javascript.ScriptRuntime.typeError2(ScriptRuntime.java:3712)
+	at org.mozilla.javascript.ScriptRuntime.notFunctionError(ScriptRuntime.java:3767)
+	at org.mozilla.javascript.ScriptRuntime.notFunctionError(ScriptRuntime.java:3755)
+	at org.mozilla.javascript.ScriptRuntime.newObject(ScriptRuntime.java:2346)
+	at org.jaggeryjs.rhino.swagger.c2._c_script_0(/swagger//index.jag:4)
+	at org.jaggeryjs.rhino.swagger.c2.call(/swagger//index.jag)
+	at org.mozilla.javascript.ContextFactory.doTopCall(ContextFactory.java:394)
+	at org.mozilla.javascript.ScriptRuntime.doTopCall(ScriptRuntime.java:3091)
+	at org.jaggeryjs.rhino.swagger.c2.call(/swagger//index.jag)
+	at org.jaggeryjs.rhino.swagger.c2.exec(/swagger//index.jag)
+	at org.jaggeryjs.scriptengine.engine.RhinoEngine.execScript(RhinoEngine.java:577)
+	... 31 more
+TID: [0] [] [2016-01-06 17:17:06,544]  INFO {org.wso2.carbon.core.init.CarbonServerManager} -  Shutdown hook triggered.... {org.wso2.carbon.core.init.CarbonServerManager}
+TID: [0] [] [2016-01-06 17:17:06,546]  INFO {org.wso2.carbon.core.init.CarbonServerManager} -  Gracefully shutting down Jaggery Runtime... {org.wso2.carbon.core.init.CarbonServerManager}
+TID: [0] [] [2016-01-06 17:17:06,550]  INFO {org.wso2.carbon.core.ServerManagement} -  Starting to switch to maintenance mode... {org.wso2.carbon.core.ServerManagement}
+TID: [0] [] [2016-01-06 17:17:08,857]  INFO {org.wso2.carbon.core.ServerManagement} -  Stopped all transport listeners {org.wso2.carbon.core.ServerManagement}
+TID: [0] [] [2016-01-06 17:17:08,858]  INFO {org.wso2.carbon.core.ServerManagement} -  Waiting for request service completion... {org.wso2.carbon.core.ServerManagement}
+TID: [0] [] [2016-01-06 17:17:08,862]  INFO {org.wso2.carbon.core.ServerManagement} -  All requests have been served. {org.wso2.carbon.core.ServerManagement}
+TID: [0] [] [2016-01-06 17:17:08,863]  INFO {org.wso2.carbon.core.ServerManagement} -  Waiting for deployment completion... {org.wso2.carbon.core.ServerManagement}
+TID: [0] [] [2016-01-06 17:17:08,915]  INFO {JAGGERY.destroy:js} -  Stopping sample Jaggery app {JAGGERY.destroy:js}
+TID: [0] [] [2016-01-06 17:17:08,927]  INFO {org.wso2.carbon.webapp.mgt.WebApplication} -  Unloaded webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/sample] {org.wso2.carbon.webapp.mgt.WebApplication}
+TID: [0] [] [2016-01-06 17:17:08,941]  INFO {org.wso2.carbon.webapp.mgt.WebApplication} -  Unloaded webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/coffeeshop] {org.wso2.carbon.webapp.mgt.WebApplication}
+TID: [0] [] [2016-01-06 17:17:08,949]  INFO {org.wso2.carbon.webapp.mgt.WebApplication} -  Unloaded webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/taskmaster] {org.wso2.carbon.webapp.mgt.WebApplication}
+TID: [0] [] [2016-01-06 17:17:08,957]  INFO {org.wso2.carbon.webapp.mgt.WebApplication} -  Unloaded webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/] {org.wso2.carbon.webapp.mgt.WebApplication}
+TID: [0] [] [2016-01-06 17:17:08,964]  INFO {org.wso2.carbon.webapp.mgt.WebApplication} -  Unloaded webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/helloapp] {org.wso2.carbon.webapp.mgt.WebApplication}
+TID: [0] [] [2016-01-06 17:17:08,970]  INFO {org.wso2.carbon.webapp.mgt.WebApplication} -  Unloaded webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/shout] {org.wso2.carbon.webapp.mgt.WebApplication}
+TID: [0] [] [2016-01-06 17:17:08,975]  INFO {org.wso2.carbon.webapp.mgt.WebApplication} -  Unloaded webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/freshometer] {org.wso2.carbon.webapp.mgt.WebApplication}
+TID: [0] [] [2016-01-06 17:17:08,985]  INFO {org.wso2.carbon.webapp.mgt.WebApplication} -  Unloaded webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/swagger] {org.wso2.carbon.webapp.mgt.WebApplication}
+TID: [0] [] [2016-01-06 17:17:08,985]  INFO {org.wso2.carbon.core.ServerManagement} -  All deployment tasks have been completed. {org.wso2.carbon.core.ServerManagement}
+TID: [0] [] [2016-01-06 17:17:08,985]  INFO {org.wso2.carbon.core.ServerManagement} -  Waiting for server task completion... {org.wso2.carbon.core.ServerManagement}
+TID: [0] [] [2016-01-06 17:17:08,986]  INFO {org.wso2.carbon.core.ServerManagement} -  All server tasks have been completed. {org.wso2.carbon.core.ServerManagement}
+TID: [0] [] [2016-01-06 17:17:08,986]  INFO {org.wso2.carbon.core.init.CarbonServerManager} -  Shutting down Jaggery Runtime... {org.wso2.carbon.core.init.CarbonServerManager}
+TID: [0] [] [2016-01-06 17:17:08,987]  INFO {org.apache.axis2.transport.tcp.TCPTransportSender} -  TCP Sender Shutdown {org.apache.axis2.transport.tcp.TCPTransportSender}
+TID: [0] [] [2016-01-06 17:17:08,987]  INFO {org.apache.axis2.transport.tcp.TCPTransportSender} -  TCP Sender Shutdown {org.apache.axis2.transport.tcp.TCPTransportSender}
+TID: [0] [] [2016-01-06 17:17:08,988]  INFO {org.wso2.carbon.core.init.CarbonServerManager} -  Shutting down OSGi framework... {org.wso2.carbon.core.init.CarbonServerManager}
+TID: [0] [] [2016-01-06 17:17:09,036]  INFO {org.wso2.carbon.core.init.CarbonServerManager} -  Stopping CarbonServerManager... {org.wso2.carbon.core.init.CarbonServerManager}
+TID: [0] [] [2016-01-06 17:17:09,044]  INFO {org.wso2.carbon.tomcat.ext.internal.CarbonTomcatServiceComponent} -  Stopping the carbon web-app registered under : /admin {org.wso2.carbon.tomcat.ext.internal.CarbonTomcatServiceComponent}
+TID: [0] [] [2016-01-06 17:17:09,916]  INFO {org.wso2.carbon.core.init.CarbonServerManager} -  Shutdown complete {org.wso2.carbon.core.init.CarbonServerManager}
+TID: [0] [] [2016-01-06 17:17:09,916]  INFO {org.wso2.carbon.core.init.CarbonServerManager} -  Halting JVM {org.wso2.carbon.core.init.CarbonServerManager}
+TID: [0] [] [2016-01-06 17:17:17,501]  INFO {org.wso2.carbon.core.internal.CarbonCoreActivator} -  Starting WSO2 Carbon... {org.wso2.carbon.core.internal.CarbonCoreActivator}
+TID: [0] [] [2016-01-06 17:17:17,502]  INFO {org.wso2.carbon.core.internal.CarbonCoreActivator} -  Operating System : Linux 3.13.0-74-generic, amd64 {org.wso2.carbon.core.internal.CarbonCoreActivator}
+TID: [0] [] [2016-01-06 17:17:17,503]  INFO {org.wso2.carbon.core.internal.CarbonCoreActivator} -  Java Home        : /home/randika/Documents/WSO2_stuff/jdk1.7.0_79/jre {org.wso2.carbon.core.internal.CarbonCoreActivator}
+TID: [0] [] [2016-01-06 17:17:17,503]  INFO {org.wso2.carbon.core.internal.CarbonCoreActivator} -  Java Version     : 1.7.0_79 {org.wso2.carbon.core.internal.CarbonCoreActivator}
+TID: [0] [] [2016-01-06 17:17:17,503]  INFO {org.wso2.carbon.core.internal.CarbonCoreActivator} -  Java VM          : Java HotSpot(TM) 64-Bit Server VM 24.79-b02,Oracle Corporation {org.wso2.carbon.core.internal.CarbonCoreActivator}
+TID: [0] [] [2016-01-06 17:17:17,503]  INFO {org.wso2.carbon.core.internal.CarbonCoreActivator} -  Carbon Home      : /home/randika/Documents/WSO2_stuff/jaggery-0.9.0-SNAPSHOT/carbon {org.wso2.carbon.core.internal.CarbonCoreActivator}
+TID: [0] [] [2016-01-06 17:17:17,503]  INFO {org.wso2.carbon.core.internal.CarbonCoreActivator} -  Java Temp Dir    : /home/randika/Documents/WSO2_stuff/jaggery-0.9.0-SNAPSHOT/carbon/tmp {org.wso2.carbon.core.internal.CarbonCoreActivator}
+TID: [0] [] [2016-01-06 17:17:17,504]  INFO {org.wso2.carbon.core.internal.CarbonCoreActivator} -  User             : randika, en-US, Asia/Colombo {org.wso2.carbon.core.internal.CarbonCoreActivator}
+TID: [0] [] [2016-01-06 17:17:19,048]  INFO {org.wso2.carbon.registry.core.jdbc.EmbeddedRegistryService} -  Configured Registry in 48ms {org.wso2.carbon.registry.core.jdbc.EmbeddedRegistryService}
+TID: [0] [] [2016-01-06 17:17:19,144]  INFO {org.wso2.carbon.registry.core.internal.RegistryCoreServiceComponent} -  Registry Mode    : READ-WRITE {org.wso2.carbon.registry.core.internal.RegistryCoreServiceComponent}
+TID: [0] [] [2016-01-06 17:17:20,056]  INFO {org.apache.axis2.deployment.ClusterBuilder} -  Clustering has been disabled {org.apache.axis2.deployment.ClusterBuilder}
+TID: [0] [] [2016-01-06 17:17:20,056]  INFO {org.apache.axis2.deployment.ClusterBuilder} -  Clustering has been disabled {org.apache.axis2.deployment.ClusterBuilder}
+TID: [0] [] [2016-01-06 17:17:20,304]  INFO {org.wso2.carbon.core.CarbonAxisConfigurator} -  No modules directory was found under /home/randika/Documents/WSO2_stuff/jaggery-0.9.0-SNAPSHOT. {org.wso2.carbon.core.CarbonAxisConfigurator}
+TID: [0] [] [2016-01-06 17:17:20,327]  INFO {org.apache.axis2.transport.tcp.TCPTransportSender} -  TCP Sender started {org.apache.axis2.transport.tcp.TCPTransportSender}
+TID: [0] [] [2016-01-06 17:17:20,327]  INFO {org.apache.axis2.transport.tcp.TCPTransportSender} -  TCP Sender started {org.apache.axis2.transport.tcp.TCPTransportSender}
+TID: [0] [] [2016-01-06 17:17:20,587]  INFO {org.jaggeryjs.jaggery.app.mgt.TomcatJaggeryWebappsDeployer} -  Deployed webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/coffeeshop].File[/home/randika/Documents/WSO2_stuff/jaggery-0.9.0-SNAPSHOT/apps/coffeeshop] {org.jaggeryjs.jaggery.app.mgt.TomcatJaggeryWebappsDeployer}
+TID: [0] [] [2016-01-06 17:17:21,178]  INFO {JAGGERY.init:js} -  Initializing sample Jaggery app {JAGGERY.init:js}
+TID: [0] [] [2016-01-06 17:17:21,179]  INFO {org.jaggeryjs.jaggery.app.mgt.TomcatJaggeryWebappsDeployer} -  Deployed webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/sample].File[/home/randika/Documents/WSO2_stuff/jaggery-0.9.0-SNAPSHOT/apps/sample] {org.jaggeryjs.jaggery.app.mgt.TomcatJaggeryWebappsDeployer}
+TID: [0] [] [2016-01-06 17:17:21,197]  INFO {org.jaggeryjs.jaggery.app.mgt.TomcatJaggeryWebappsDeployer} -  Deployed webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/taskmaster].File[/home/randika/Documents/WSO2_stuff/jaggery-0.9.0-SNAPSHOT/apps/taskmaster] {org.jaggeryjs.jaggery.app.mgt.TomcatJaggeryWebappsDeployer}
+TID: [0] [] [2016-01-06 17:17:21,224]  INFO {org.jaggeryjs.jaggery.app.mgt.TomcatJaggeryWebappsDeployer} -  Deployed webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/freshometer].File[/home/randika/Documents/WSO2_stuff/jaggery-0.9.0-SNAPSHOT/apps/freshometer] {org.jaggeryjs.jaggery.app.mgt.TomcatJaggeryWebappsDeployer}
+TID: [0] [] [2016-01-06 17:17:21,249]  INFO {org.jaggeryjs.jaggery.app.mgt.TomcatJaggeryWebappsDeployer} -  Deployed webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/helloapp].File[/home/randika/Documents/WSO2_stuff/jaggery-0.9.0-SNAPSHOT/apps/helloapp] {org.jaggeryjs.jaggery.app.mgt.TomcatJaggeryWebappsDeployer}
+TID: [0] [] [2016-01-06 17:17:21,269]  INFO {org.jaggeryjs.jaggery.app.mgt.TomcatJaggeryWebappsDeployer} -  Deployed webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/].File[/home/randika/Documents/WSO2_stuff/jaggery-0.9.0-SNAPSHOT/apps/ROOT] {org.jaggeryjs.jaggery.app.mgt.TomcatJaggeryWebappsDeployer}
+TID: [0] [] [2016-01-06 17:17:21,290]  INFO {org.jaggeryjs.jaggery.app.mgt.TomcatJaggeryWebappsDeployer} -  Deployed webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/swagger].File[/home/randika/Documents/WSO2_stuff/jaggery-0.9.0-SNAPSHOT/apps/swagger] {org.jaggeryjs.jaggery.app.mgt.TomcatJaggeryWebappsDeployer}
+TID: [0] [] [2016-01-06 17:17:21,308]  INFO {org.jaggeryjs.jaggery.app.mgt.TomcatJaggeryWebappsDeployer} -  Deployed webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/shout].File[/home/randika/Documents/WSO2_stuff/jaggery-0.9.0-SNAPSHOT/apps/shout] {org.jaggeryjs.jaggery.app.mgt.TomcatJaggeryWebappsDeployer}
+TID: [0] [] [2016-01-06 17:17:21,478]  INFO {org.apache.axis2.deployment.ModuleDeployer} -  Deploying module: addressing-1.6.1-wso2v7 - file:/home/randika/Documents/WSO2_stuff/jaggery-0.9.0-SNAPSHOT/carbon/repository/deployment/client/modules/addressing-1.6.1-wso2v7.mar {org.apache.axis2.deployment.ModuleDeployer}
+TID: [0] [] [2016-01-06 17:17:21,478]  INFO {org.apache.axis2.deployment.ModuleDeployer} -  Deploying module: addressing-1.6.1-wso2v7 - file:/home/randika/Documents/WSO2_stuff/jaggery-0.9.0-SNAPSHOT/carbon/repository/deployment/client/modules/addressing-1.6.1-wso2v7.mar {org.apache.axis2.deployment.ModuleDeployer}
+TID: [0] [] [2016-01-06 17:17:21,481]  INFO {org.apache.axis2.transport.tcp.TCPTransportSender} -  TCP Sender started {org.apache.axis2.transport.tcp.TCPTransportSender}
+TID: [0] [] [2016-01-06 17:17:21,481]  INFO {org.apache.axis2.transport.tcp.TCPTransportSender} -  TCP Sender started {org.apache.axis2.transport.tcp.TCPTransportSender}
+TID: [0] [] [2016-01-06 17:17:22,319]  INFO {org.wso2.carbon.core.init.CarbonServerManager} -  Repository       : /home/randika/Documents/WSO2_stuff/jaggery-0.9.0-SNAPSHOT/ {org.wso2.carbon.core.init.CarbonServerManager}
+TID: [0] [] [2016-01-06 17:17:22,343]  INFO {org.wso2.carbon.core.internal.permission.update.PermissionUpdater} -  Permission cache updated for tenant -1234 {org.wso2.carbon.core.internal.permission.update.PermissionUpdater}
+TID: [0] [] [2016-01-06 17:17:22,380]  INFO {org.wso2.carbon.core.transports.http.HttpsTransportListener} -  HTTPS port       : 9443 {org.wso2.carbon.core.transports.http.HttpsTransportListener}
+TID: [0] [] [2016-01-06 17:17:22,380]  INFO {org.wso2.carbon.core.transports.http.HttpTransportListener} -  HTTP port        : 9763 {org.wso2.carbon.core.transports.http.HttpTransportListener}
+TID: [0] [] [2016-01-06 17:17:23,152]  INFO {org.wso2.carbon.core.init.JMXServerManager} -  JMX Service URL  : service:jmx:rmi://localhost:11111/jndi/rmi://localhost:9999/jmxrmi {org.wso2.carbon.core.init.JMXServerManager}
+TID: [0] [] [2016-01-06 17:17:23,152]  INFO {org.wso2.carbon.core.internal.StartupFinalizerServiceComponent} -  Server           :  Jaggery Runtime-0.9.0-SNAPSHOT {org.wso2.carbon.core.internal.StartupFinalizerServiceComponent}
+TID: [0] [] [2016-01-06 17:17:23,153]  INFO {org.wso2.carbon.core.internal.StartupFinalizerServiceComponent} -  WSO2 Carbon started in 9 sec {org.wso2.carbon.core.internal.StartupFinalizerServiceComponent}
+TID: [0] [] [2016-01-06 17:17:23,418]  INFO {org.wso2.carbon.ui.internal.CarbonUIServiceComponent} -  Mgt Console URL  : https://10.100.4.166:9443/admin/carbon/ {org.wso2.carbon.ui.internal.CarbonUIServiceComponent}
+TID: [0] [] [2016-01-06 17:24:01,698]  INFO {org.wso2.carbon.core.init.CarbonServerManager} -  Shutdown hook triggered.... {org.wso2.carbon.core.init.CarbonServerManager}
+TID: [0] [] [2016-01-06 17:24:01,700]  INFO {org.wso2.carbon.core.init.CarbonServerManager} -  Gracefully shutting down Jaggery Runtime... {org.wso2.carbon.core.init.CarbonServerManager}
+TID: [0] [] [2016-01-06 17:24:01,702]  INFO {org.wso2.carbon.core.ServerManagement} -  Starting to switch to maintenance mode... {org.wso2.carbon.core.ServerManagement}
+TID: [0] [] [2016-01-06 17:24:03,941]  INFO {org.wso2.carbon.core.ServerManagement} -  Stopped all transport listeners {org.wso2.carbon.core.ServerManagement}
+TID: [0] [] [2016-01-06 17:24:03,941]  INFO {org.wso2.carbon.core.ServerManagement} -  Waiting for request service completion... {org.wso2.carbon.core.ServerManagement}
+TID: [0] [] [2016-01-06 17:24:03,944]  INFO {org.wso2.carbon.core.ServerManagement} -  All requests have been served. {org.wso2.carbon.core.ServerManagement}
+TID: [0] [] [2016-01-06 17:24:03,944]  INFO {org.wso2.carbon.core.ServerManagement} -  Waiting for deployment completion... {org.wso2.carbon.core.ServerManagement}
+TID: [0] [] [2016-01-06 17:24:03,960]  INFO {JAGGERY.destroy:js} -  Stopping sample Jaggery app {JAGGERY.destroy:js}
+TID: [0] [] [2016-01-06 17:24:03,980]  INFO {org.wso2.carbon.webapp.mgt.WebApplication} -  Unloaded webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/sample] {org.wso2.carbon.webapp.mgt.WebApplication}
+TID: [0] [] [2016-01-06 17:24:03,988]  INFO {org.wso2.carbon.webapp.mgt.WebApplication} -  Unloaded webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/coffeeshop] {org.wso2.carbon.webapp.mgt.WebApplication}
+TID: [0] [] [2016-01-06 17:24:03,997]  INFO {org.wso2.carbon.webapp.mgt.WebApplication} -  Unloaded webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/taskmaster] {org.wso2.carbon.webapp.mgt.WebApplication}
+TID: [0] [] [2016-01-06 17:24:04,006]  INFO {org.wso2.carbon.webapp.mgt.WebApplication} -  Unloaded webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/] {org.wso2.carbon.webapp.mgt.WebApplication}
+TID: [0] [] [2016-01-06 17:24:04,016]  INFO {org.wso2.carbon.webapp.mgt.WebApplication} -  Unloaded webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/helloapp] {org.wso2.carbon.webapp.mgt.WebApplication}
+TID: [0] [] [2016-01-06 17:24:04,023]  INFO {org.wso2.carbon.webapp.mgt.WebApplication} -  Unloaded webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/shout] {org.wso2.carbon.webapp.mgt.WebApplication}
+TID: [0] [] [2016-01-06 17:24:04,030]  INFO {org.wso2.carbon.webapp.mgt.WebApplication} -  Unloaded webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/freshometer] {org.wso2.carbon.webapp.mgt.WebApplication}
+TID: [0] [] [2016-01-06 17:24:04,042]  INFO {org.wso2.carbon.webapp.mgt.WebApplication} -  Unloaded webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/swagger] {org.wso2.carbon.webapp.mgt.WebApplication}
+TID: [0] [] [2016-01-06 17:24:04,042]  INFO {org.wso2.carbon.core.ServerManagement} -  All deployment tasks have been completed. {org.wso2.carbon.core.ServerManagement}
+TID: [0] [] [2016-01-06 17:24:04,042]  INFO {org.wso2.carbon.core.ServerManagement} -  Waiting for server task completion... {org.wso2.carbon.core.ServerManagement}
+TID: [0] [] [2016-01-06 17:24:04,043]  INFO {org.wso2.carbon.core.ServerManagement} -  All server tasks have been completed. {org.wso2.carbon.core.ServerManagement}
+TID: [0] [] [2016-01-06 17:24:04,043]  INFO {org.wso2.carbon.core.init.CarbonServerManager} -  Shutting down Jaggery Runtime... {org.wso2.carbon.core.init.CarbonServerManager}
+TID: [0] [] [2016-01-06 17:24:04,043]  INFO {org.apache.axis2.transport.tcp.TCPTransportSender} -  TCP Sender Shutdown {org.apache.axis2.transport.tcp.TCPTransportSender}
+TID: [0] [] [2016-01-06 17:24:04,043]  INFO {org.apache.axis2.transport.tcp.TCPTransportSender} -  TCP Sender Shutdown {org.apache.axis2.transport.tcp.TCPTransportSender}
+TID: [0] [] [2016-01-06 17:24:04,045]  INFO {org.wso2.carbon.core.init.CarbonServerManager} -  Shutting down OSGi framework... {org.wso2.carbon.core.init.CarbonServerManager}
+TID: [0] [] [2016-01-06 17:24:04,094]  INFO {org.wso2.carbon.core.init.CarbonServerManager} -  Stopping CarbonServerManager... {org.wso2.carbon.core.init.CarbonServerManager}
+TID: [0] [] [2016-01-06 17:24:04,105]  INFO {org.wso2.carbon.tomcat.ext.internal.CarbonTomcatServiceComponent} -  Stopping the carbon web-app registered under : /admin {org.wso2.carbon.tomcat.ext.internal.CarbonTomcatServiceComponent}
+TID: [0] [] [2016-01-06 17:24:04,882]  INFO {org.wso2.carbon.core.init.CarbonServerManager} -  Shutdown complete {org.wso2.carbon.core.init.CarbonServerManager}
+TID: [0] [] [2016-01-06 17:24:04,883]  INFO {org.wso2.carbon.core.init.CarbonServerManager} -  Halting JVM {org.wso2.carbon.core.init.CarbonServerManager}
+TID: [0] [] [2016-01-06 17:24:24,887]  INFO {org.wso2.carbon.core.internal.CarbonCoreActivator} -  Starting WSO2 Carbon... {org.wso2.carbon.core.internal.CarbonCoreActivator}
+TID: [0] [] [2016-01-06 17:24:24,888]  INFO {org.wso2.carbon.core.internal.CarbonCoreActivator} -  Operating System : Linux 3.13.0-74-generic, amd64 {org.wso2.carbon.core.internal.CarbonCoreActivator}
+TID: [0] [] [2016-01-06 17:24:24,888]  INFO {org.wso2.carbon.core.internal.CarbonCoreActivator} -  Java Home        : /home/randika/Documents/WSO2_stuff/jdk1.7.0_79/jre {org.wso2.carbon.core.internal.CarbonCoreActivator}
+TID: [0] [] [2016-01-06 17:24:24,889]  INFO {org.wso2.carbon.core.internal.CarbonCoreActivator} -  Java Version     : 1.7.0_79 {org.wso2.carbon.core.internal.CarbonCoreActivator}
+TID: [0] [] [2016-01-06 17:24:24,889]  INFO {org.wso2.carbon.core.internal.CarbonCoreActivator} -  Java VM          : Java HotSpot(TM) 64-Bit Server VM 24.79-b02,Oracle Corporation {org.wso2.carbon.core.internal.CarbonCoreActivator}
+TID: [0] [] [2016-01-06 17:24:24,889]  INFO {org.wso2.carbon.core.internal.CarbonCoreActivator} -  Carbon Home      : /home/randika/Documents/WSO2_stuff/jaggery-0.9.0-SNAPSHOT/carbon {org.wso2.carbon.core.internal.CarbonCoreActivator}
+TID: [0] [] [2016-01-06 17:24:24,889]  INFO {org.wso2.carbon.core.internal.CarbonCoreActivator} -  Java Temp Dir    : /home/randika/Documents/WSO2_stuff/jaggery-0.9.0-SNAPSHOT/carbon/tmp {org.wso2.carbon.core.internal.CarbonCoreActivator}
+TID: [0] [] [2016-01-06 17:24:24,889]  INFO {org.wso2.carbon.core.internal.CarbonCoreActivator} -  User             : randika, en-US, Asia/Colombo {org.wso2.carbon.core.internal.CarbonCoreActivator}
+TID: [0] [] [2016-01-06 17:24:26,281]  INFO {org.wso2.carbon.registry.core.jdbc.EmbeddedRegistryService} -  Configured Registry in 47ms {org.wso2.carbon.registry.core.jdbc.EmbeddedRegistryService}
+TID: [0] [] [2016-01-06 17:24:26,393]  INFO {org.wso2.carbon.registry.core.internal.RegistryCoreServiceComponent} -  Registry Mode    : READ-WRITE {org.wso2.carbon.registry.core.internal.RegistryCoreServiceComponent}
+TID: [0] [] [2016-01-06 17:24:27,386]  INFO {org.apache.axis2.deployment.ClusterBuilder} -  Clustering has been disabled {org.apache.axis2.deployment.ClusterBuilder}
+TID: [0] [] [2016-01-06 17:24:27,386]  INFO {org.apache.axis2.deployment.ClusterBuilder} -  Clustering has been disabled {org.apache.axis2.deployment.ClusterBuilder}
+TID: [0] [] [2016-01-06 17:24:27,635]  INFO {org.wso2.carbon.core.CarbonAxisConfigurator} -  No modules directory was found under /home/randika/Documents/WSO2_stuff/jaggery-0.9.0-SNAPSHOT. {org.wso2.carbon.core.CarbonAxisConfigurator}
+TID: [0] [] [2016-01-06 17:24:27,658]  INFO {org.apache.axis2.transport.tcp.TCPTransportSender} -  TCP Sender started {org.apache.axis2.transport.tcp.TCPTransportSender}
+TID: [0] [] [2016-01-06 17:24:27,658]  INFO {org.apache.axis2.transport.tcp.TCPTransportSender} -  TCP Sender started {org.apache.axis2.transport.tcp.TCPTransportSender}
+TID: [0] [] [2016-01-06 17:24:27,897]  INFO {org.jaggeryjs.jaggery.app.mgt.TomcatJaggeryWebappsDeployer} -  Deployed webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/coffeeshop].File[/home/randika/Documents/WSO2_stuff/jaggery-0.9.0-SNAPSHOT/apps/coffeeshop] {org.jaggeryjs.jaggery.app.mgt.TomcatJaggeryWebappsDeployer}
+TID: [0] [] [2016-01-06 17:24:28,492]  INFO {JAGGERY.init:js} -  Initializing sample Jaggery app {JAGGERY.init:js}
+TID: [0] [] [2016-01-06 17:24:28,494]  INFO {org.jaggeryjs.jaggery.app.mgt.TomcatJaggeryWebappsDeployer} -  Deployed webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/sample].File[/home/randika/Documents/WSO2_stuff/jaggery-0.9.0-SNAPSHOT/apps/sample] {org.jaggeryjs.jaggery.app.mgt.TomcatJaggeryWebappsDeployer}
+TID: [0] [] [2016-01-06 17:24:28,514]  INFO {org.jaggeryjs.jaggery.app.mgt.TomcatJaggeryWebappsDeployer} -  Deployed webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/taskmaster].File[/home/randika/Documents/WSO2_stuff/jaggery-0.9.0-SNAPSHOT/apps/taskmaster] {org.jaggeryjs.jaggery.app.mgt.TomcatJaggeryWebappsDeployer}
+TID: [0] [] [2016-01-06 17:24:28,534]  INFO {org.jaggeryjs.jaggery.app.mgt.TomcatJaggeryWebappsDeployer} -  Deployed webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/freshometer].File[/home/randika/Documents/WSO2_stuff/jaggery-0.9.0-SNAPSHOT/apps/freshometer] {org.jaggeryjs.jaggery.app.mgt.TomcatJaggeryWebappsDeployer}
+TID: [0] [] [2016-01-06 17:24:28,551]  INFO {org.jaggeryjs.jaggery.app.mgt.TomcatJaggeryWebappsDeployer} -  Deployed webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/helloapp].File[/home/randika/Documents/WSO2_stuff/jaggery-0.9.0-SNAPSHOT/apps/helloapp] {org.jaggeryjs.jaggery.app.mgt.TomcatJaggeryWebappsDeployer}
+TID: [0] [] [2016-01-06 17:24:28,572]  INFO {org.jaggeryjs.jaggery.app.mgt.TomcatJaggeryWebappsDeployer} -  Deployed webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/].File[/home/randika/Documents/WSO2_stuff/jaggery-0.9.0-SNAPSHOT/apps/ROOT] {org.jaggeryjs.jaggery.app.mgt.TomcatJaggeryWebappsDeployer}
+TID: [0] [] [2016-01-06 17:24:28,593]  INFO {org.jaggeryjs.jaggery.app.mgt.TomcatJaggeryWebappsDeployer} -  Deployed webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/swagger].File[/home/randika/Documents/WSO2_stuff/jaggery-0.9.0-SNAPSHOT/apps/swagger] {org.jaggeryjs.jaggery.app.mgt.TomcatJaggeryWebappsDeployer}
+TID: [0] [] [2016-01-06 17:24:28,611]  INFO {org.jaggeryjs.jaggery.app.mgt.TomcatJaggeryWebappsDeployer} -  Deployed webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/shout].File[/home/randika/Documents/WSO2_stuff/jaggery-0.9.0-SNAPSHOT/apps/shout] {org.jaggeryjs.jaggery.app.mgt.TomcatJaggeryWebappsDeployer}
+TID: [0] [] [2016-01-06 17:24:28,798]  INFO {org.apache.axis2.deployment.ModuleDeployer} -  Deploying module: addressing-1.6.1-wso2v7 - file:/home/randika/Documents/WSO2_stuff/jaggery-0.9.0-SNAPSHOT/carbon/repository/deployment/client/modules/addressing-1.6.1-wso2v7.mar {org.apache.axis2.deployment.ModuleDeployer}
+TID: [0] [] [2016-01-06 17:24:28,798]  INFO {org.apache.axis2.deployment.ModuleDeployer} -  Deploying module: addressing-1.6.1-wso2v7 - file:/home/randika/Documents/WSO2_stuff/jaggery-0.9.0-SNAPSHOT/carbon/repository/deployment/client/modules/addressing-1.6.1-wso2v7.mar {org.apache.axis2.deployment.ModuleDeployer}
+TID: [0] [] [2016-01-06 17:24:28,801]  INFO {org.apache.axis2.transport.tcp.TCPTransportSender} -  TCP Sender started {org.apache.axis2.transport.tcp.TCPTransportSender}
+TID: [0] [] [2016-01-06 17:24:28,801]  INFO {org.apache.axis2.transport.tcp.TCPTransportSender} -  TCP Sender started {org.apache.axis2.transport.tcp.TCPTransportSender}
+TID: [0] [] [2016-01-06 17:24:29,591]  INFO {org.wso2.carbon.core.init.CarbonServerManager} -  Repository       : /home/randika/Documents/WSO2_stuff/jaggery-0.9.0-SNAPSHOT/ {org.wso2.carbon.core.init.CarbonServerManager}
+TID: [0] [] [2016-01-06 17:24:29,615]  INFO {org.wso2.carbon.core.internal.permission.update.PermissionUpdater} -  Permission cache updated for tenant -1234 {org.wso2.carbon.core.internal.permission.update.PermissionUpdater}
+TID: [0] [] [2016-01-06 17:24:29,653]  INFO {org.wso2.carbon.core.transports.http.HttpsTransportListener} -  HTTPS port       : 9443 {org.wso2.carbon.core.transports.http.HttpsTransportListener}
+TID: [0] [] [2016-01-06 17:24:29,653]  INFO {org.wso2.carbon.core.transports.http.HttpTransportListener} -  HTTP port        : 9763 {org.wso2.carbon.core.transports.http.HttpTransportListener}
+TID: [0] [] [2016-01-06 17:24:30,414]  INFO {org.wso2.carbon.core.init.JMXServerManager} -  JMX Service URL  : service:jmx:rmi://localhost:11111/jndi/rmi://localhost:9999/jmxrmi {org.wso2.carbon.core.init.JMXServerManager}
+TID: [0] [] [2016-01-06 17:24:30,414]  INFO {org.wso2.carbon.core.internal.StartupFinalizerServiceComponent} -  Server           :  Jaggery Runtime-0.9.0-SNAPSHOT {org.wso2.carbon.core.internal.StartupFinalizerServiceComponent}
+TID: [0] [] [2016-01-06 17:24:30,415]  INFO {org.wso2.carbon.core.internal.StartupFinalizerServiceComponent} -  WSO2 Carbon started in 9 sec {org.wso2.carbon.core.internal.StartupFinalizerServiceComponent}
+TID: [0] [] [2016-01-06 17:24:30,610]  INFO {org.wso2.carbon.ui.internal.CarbonUIServiceComponent} -  Mgt Console URL  : https://10.100.4.166:9443/admin/carbon/ {org.wso2.carbon.ui.internal.CarbonUIServiceComponent}
+TID: [0] [] [2016-01-06 18:29:39,007]  INFO {org.jaggeryjs.jaggery.app.mgt.TomcatJaggeryWebappsDeployer} -  Deployed webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/javaClientSdk].File[/home/randika/Documents/WSO2_stuff/jaggery-0.9.0-SNAPSHOT/apps/javaClientSdk] {org.jaggeryjs.jaggery.app.mgt.TomcatJaggeryWebappsDeployer}
+TID: [0] [] [2016-01-06 18:30:39,656]  INFO {org.wso2.carbon.webapp.mgt.WebApplication} -  Unloaded webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/javaClientSdk] {org.wso2.carbon.webapp.mgt.WebApplication}
+TID: [0] [] [2016-01-06 18:30:39,656]  INFO {org.wso2.carbon.webapp.mgt.TomcatGenericWebappsDeployer} -  Undeployed webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/javaClientSdk].File[/home/randika/Documents/WSO2_stuff/jaggery-0.9.0-SNAPSHOT/apps/javaClientSdk] {org.wso2.carbon.webapp.mgt.TomcatGenericWebappsDeployer}
+TID: [0] [] [2016-01-06 18:36:08,680]  INFO {org.wso2.carbon.core.init.CarbonServerManager} -  Shutdown hook triggered.... {org.wso2.carbon.core.init.CarbonServerManager}
+TID: [0] [] [2016-01-06 18:36:08,688]  INFO {org.wso2.carbon.core.init.CarbonServerManager} -  Gracefully shutting down Jaggery Runtime... {org.wso2.carbon.core.init.CarbonServerManager}
+TID: [0] [] [2016-01-06 18:36:08,695]  INFO {org.wso2.carbon.core.ServerManagement} -  Starting to switch to maintenance mode... {org.wso2.carbon.core.ServerManagement}
+TID: [0] [] [2016-01-06 18:36:10,924]  INFO {org.wso2.carbon.core.ServerManagement} -  Stopped all transport listeners {org.wso2.carbon.core.ServerManagement}
+TID: [0] [] [2016-01-06 18:36:10,925]  INFO {org.wso2.carbon.core.ServerManagement} -  Waiting for request service completion... {org.wso2.carbon.core.ServerManagement}
+TID: [0] [] [2016-01-06 18:36:10,928]  INFO {org.wso2.carbon.core.ServerManagement} -  All requests have been served. {org.wso2.carbon.core.ServerManagement}
+TID: [0] [] [2016-01-06 18:36:10,928]  INFO {org.wso2.carbon.core.ServerManagement} -  Waiting for deployment completion... {org.wso2.carbon.core.ServerManagement}
+TID: [0] [] [2016-01-06 18:36:10,942]  INFO {JAGGERY.destroy:js} -  Stopping sample Jaggery app {JAGGERY.destroy:js}
+TID: [0] [] [2016-01-06 18:36:10,949]  INFO {org.wso2.carbon.webapp.mgt.WebApplication} -  Unloaded webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/sample] {org.wso2.carbon.webapp.mgt.WebApplication}
+TID: [0] [] [2016-01-06 18:36:10,958]  INFO {org.wso2.carbon.webapp.mgt.WebApplication} -  Unloaded webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/coffeeshop] {org.wso2.carbon.webapp.mgt.WebApplication}
+TID: [0] [] [2016-01-06 18:36:10,967]  INFO {org.wso2.carbon.webapp.mgt.WebApplication} -  Unloaded webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/taskmaster] {org.wso2.carbon.webapp.mgt.WebApplication}
+TID: [0] [] [2016-01-06 18:36:10,976]  INFO {org.wso2.carbon.webapp.mgt.WebApplication} -  Unloaded webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/] {org.wso2.carbon.webapp.mgt.WebApplication}
+TID: [0] [] [2016-01-06 18:36:10,984]  INFO {org.wso2.carbon.webapp.mgt.WebApplication} -  Unloaded webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/helloapp] {org.wso2.carbon.webapp.mgt.WebApplication}
+TID: [0] [] [2016-01-06 18:36:10,991]  INFO {org.wso2.carbon.webapp.mgt.WebApplication} -  Unloaded webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/shout] {org.wso2.carbon.webapp.mgt.WebApplication}
+TID: [0] [] [2016-01-06 18:36:10,998]  INFO {org.wso2.carbon.webapp.mgt.WebApplication} -  Unloaded webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/freshometer] {org.wso2.carbon.webapp.mgt.WebApplication}
+TID: [0] [] [2016-01-06 18:36:11,005]  INFO {org.wso2.carbon.webapp.mgt.WebApplication} -  Unloaded webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/swagger] {org.wso2.carbon.webapp.mgt.WebApplication}
+TID: [0] [] [2016-01-06 18:36:11,005]  INFO {org.wso2.carbon.core.ServerManagement} -  All deployment tasks have been completed. {org.wso2.carbon.core.ServerManagement}
+TID: [0] [] [2016-01-06 18:36:11,006]  INFO {org.wso2.carbon.core.ServerManagement} -  Waiting for server task completion... {org.wso2.carbon.core.ServerManagement}
+TID: [0] [] [2016-01-06 18:36:11,006]  INFO {org.wso2.carbon.core.ServerManagement} -  All server tasks have been completed. {org.wso2.carbon.core.ServerManagement}
+TID: [0] [] [2016-01-06 18:36:11,006]  INFO {org.wso2.carbon.core.init.CarbonServerManager} -  Shutting down Jaggery Runtime... {org.wso2.carbon.core.init.CarbonServerManager}
+TID: [0] [] [2016-01-06 18:36:11,007]  INFO {org.apache.axis2.transport.tcp.TCPTransportSender} -  TCP Sender Shutdown {org.apache.axis2.transport.tcp.TCPTransportSender}
+TID: [0] [] [2016-01-06 18:36:11,007]  INFO {org.apache.axis2.transport.tcp.TCPTransportSender} -  TCP Sender Shutdown {org.apache.axis2.transport.tcp.TCPTransportSender}
+TID: [0] [] [2016-01-06 18:36:11,009]  INFO {org.wso2.carbon.core.init.CarbonServerManager} -  Shutting down OSGi framework... {org.wso2.carbon.core.init.CarbonServerManager}
+TID: [0] [] [2016-01-06 18:36:11,049]  INFO {org.wso2.carbon.core.init.CarbonServerManager} -  Stopping CarbonServerManager... {org.wso2.carbon.core.init.CarbonServerManager}
+TID: [0] [] [2016-01-06 18:36:11,058]  INFO {org.wso2.carbon.tomcat.ext.internal.CarbonTomcatServiceComponent} -  Stopping the carbon web-app registered under : /admin {org.wso2.carbon.tomcat.ext.internal.CarbonTomcatServiceComponent}
+TID: [0] [] [2016-01-06 18:36:12,009]  INFO {org.wso2.carbon.core.init.CarbonServerManager} -  Shutdown complete {org.wso2.carbon.core.init.CarbonServerManager}
+TID: [0] [] [2016-01-06 18:36:12,009]  INFO {org.wso2.carbon.core.init.CarbonServerManager} -  Halting JVM {org.wso2.carbon.core.init.CarbonServerManager}

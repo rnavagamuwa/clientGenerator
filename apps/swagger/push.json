@@ -1,0 +1,63 @@
+{
+    "paths": {
+        "/send/webres/sendPush": {
+            "post": {
+                "x-auth-type": "Application & Application User",
+                "summary": "https://drive.google.com/file/d/0BxPZWaQn4WLaaXRWa1NTZjFKQjA/view",
+                "x-throttling-tier": "Unlimited",
+                "parameters": [
+                    {
+                        "name": "apiKey",
+                        "type": "string",
+                        "required": true,
+                        "in": "formData"
+                    },
+                    {
+                        "name": "DeviceId",
+                        "type": "string",
+                        "required": true,
+                        "in": "formData"
+                    },
+                    {
+                        "name": "Message",
+                        "type": "string",
+                        "required": false,
+                        "in": "formData"
+                    }
+                ],
+                "responses": {
+                    "200": {}
+                }
+            }
+        },
+        "/abc/webres/users": {
+            "post": {
+                "summary": "Send userId to get details of the user",
+                "x-auth-type": "Application & Application User",
+                "x-throttling-tier": "Unlimited",
+                "produces": [
+                    "application/xml"
+                ],
+                "parameters": [
+                    {
+                        "name": "userId",
+                        "required": true,
+                        "type": "string",
+                        "in": "formData"
+                    }
+                ],
+                "consumes": [
+                    "application/x-www-form-urlencoded"
+                ],
+                "responses": {
+                    "200": {}
+                }
+            }
+        }
+    },
+    "swagger": "2.0",
+    "info": {
+        "title": "PushNotification",
+        "version": "v1.0.0"
+    }
+}
